@@ -123,7 +123,7 @@ line-height: 0;
   box-shadow: 5px 5px 5px 5px rgba(230, 238, 162, 0.2);
 }
 .video-container {
-  height: 1000px;
+  height: 1100px;
 }
 #video1 {
   position: relative;
@@ -135,16 +135,16 @@ line-height: 0;
   top: 270px;
   z-index: -1;
 }
-.comfort, .robust, .cozy {
+.comfort, .robust, .cozy, .solid {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 50px;
   font-weight: bolder;
 }
 .comfort {
-  padding: 148px 242px;
+  padding: 149px 242px;
   position: relative;
   left: 667px;
-  bottom: 415.5px;
+  bottom: 416px;
   background-color: #FFFF76;
   border-radius: 0 0 0 12px;
 }
@@ -170,10 +170,10 @@ line-height: 0;
     color 2s ease-out;
 }
 .cozy {
-  padding: 133px 266px;
+  padding: 133px 284px;
   position: relative;
-  top: 150px;
-  left: 630px;
+  top: 157px;
+  left: 668px;
   background-color: #D68162;
   border-radius: 12px 0 0 0;
 }
@@ -184,6 +184,20 @@ transition:
   background-color 2s ease-out,
   color 2s ease-out;
 }
+.solid {
+  padding: 131px 276px;
+  position: relative;
+  top: 91.5px;
+  background-color: #ffcbeb;
+  border-radius: 0 12px 0 0;
+}
+.solid:hover {
+  background-color: rgb(85, 56, 85);
+  color: rgb(255, 255, 255);
+  transition: 
+    background-color 2s ease-out,
+    color 2s ease-out;
+  }
 .footer-container {
 background-color: rgb(102, 102, 102);
 height: 500px;
@@ -231,6 +245,3 @@ color: maroon;
 a:link{
 color:#56504E;
 }
-
-
-
