@@ -4,9 +4,12 @@
   box-sizing: border-box;
 }
 .navbar-container {
-  display: flex;
-  width: 100%;
-  padding: 30px;
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    position:fixed;
+    background-color:rgba(189, 189, 189, 0.6);
+    z-index: 10;
 }
 .links-container {
   margin-left: 200px;
