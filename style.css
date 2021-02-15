@@ -7,6 +7,9 @@
   display: flex;
   width: 100%;
   padding: 30px;
+  position:fixed;
+  background-color:rgba(189, 189, 189, 0.6);
+  z-index: 10;
 }
 .links-container {
   margin-left: 200px;
@@ -24,7 +27,6 @@ a:visited {
   padding: 30px;
   text-decoration: none;
   color: #56504E;
-  background-color: #EAEAEA;
   display: flex;
 }
 .navbar-container>a:hover {
@@ -121,7 +123,7 @@ text-decoration: none;
 box-shadow: 5px 5px 5px 5px rgba(230, 238, 162, 0.2);
 }
 .video-container {
-height: 1000px;
+height: 1300px;
 }
 #video1 {
 position: relative;
@@ -130,20 +132,21 @@ z-index: -1;
 }
 #video2 {
 position: relative;
-top: 250px;
-right: 10px;
+bottom: 293.5px;
+left: 635.65px;
 z-index: -1;
 }
 .comfort, .robust, .cozy {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size: 50px;
 font-weight: bolder;
+background-color: rgb(255,255,255);
 }
 .comfort {
-padding: 147px 240px;
+padding: 147px 224px;
 position: relative;
-left: 645px;
-bottom: 400px;
+bottom: 962px;
+left: 629px;
 background-color: #FFFF76;
 border-radius: 0 0 0 12px;
 }
@@ -157,8 +160,7 @@ transition:
 .robust {
 padding: 152px 235.5px;
 position: relative;
-top: 1px;
-right: 640px;
+bottom: 672px;
 background-color: #ABB8F3;
 border-radius: 0 12px 12px 0;
 }
@@ -172,7 +174,7 @@ transition:
 .cozy {
 padding: 133px 266px;
 position: relative;
-top: 150px;
+bottom: 397px;
 left: 630px;
 background-color: #D68162;
 border-radius: 12px 0 0 0;
@@ -186,10 +188,13 @@ transition:
 }
 .footer-container {
 background-color: rgb(102, 102, 102);
-height: 500px;
+height: 200px;
+bottom: 0;
+width:100%;
+text-align: center;
 }
 .footer-links {
-margin-left: 400px;
+margin-left: 300px;
 display: flex;
 flex-direction: row;
 width: 50%;
@@ -200,6 +205,10 @@ font-weight: bolder;
 .aboutus>a>img {
   border-radius: 30px; 
   box-shadow: 5px 5px #56504E;
+}
+.aboutus>a>img:hover{ 
+  box-shadow: 5px 5px 5px 5px white;
+  transition-duration: 1s;
 }
 .product {
 display: flex;
@@ -230,6 +239,9 @@ color: maroon;
 }
 a:link{
 color:#56504E;
+}
+ul,li{
+  list-style:none;
 }
 
 
