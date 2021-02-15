@@ -191,7 +191,6 @@ background-color: rgb(102, 102, 102);
 height: 200px;
 bottom: 0;
 width:100%;
-text-align: center;
 }
 .footer-links {
 margin-left: 300px;
@@ -201,14 +200,6 @@ width: 50%;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 font-weight: bolder;
-}
-.aboutus>a>img {
-  border-radius: 30px; 
-  box-shadow: 5px 5px #56504E;
-}
-.aboutus>a>img:hover{ 
-  box-shadow: 5px 5px 5px 5px white;
-  transition-duration: 1s;
 }
 .product {
 display: flex;
@@ -223,11 +214,11 @@ flex-direction: column;
  width: 30px;
 }
 .aboutus {
-display: flex;
-flex: 1;
-flex-direction: column;
-width: 30px;
-}
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 30px;
+  }
 .contactus {
 display: flex;
 flex: 1;
@@ -237,12 +228,21 @@ width: 30px;
 a:hover{
 color: maroon;
 }
-a:link{
-color:#56504E;
-}
 ul,li{
   list-style:none;
 }
-
-
-
+.nav-img-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 1000px;
+  justify-content: space-evenly;
+}
+.nav-img-container>a>img {
+  border-radius: 30px; 
+  box-shadow: 5px 5px #56504E;
+}
+.nav-img-container>a>img:hover{ 
+  box-shadow: 5px 5px 5px 5px white;
+  transition-duration: 1s;
+}
