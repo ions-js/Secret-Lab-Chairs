@@ -11,6 +11,14 @@
     background-color:rgba(189, 189, 189, 0.6);
     z-index: 10;
 }
+.navbar-container a img:hover {
+  transition-duration: 0.5s;
+  box-shadow: 
+     5px 5px 20px 10px rgba(240,255,240,0.5),
+     -5px -5px 20px 10px rgba(240,255,240,0.5),
+     inset 5px 5px 20px 10px rgba(240,255,240,0.5),
+     inset -5px -5px 20px 10px rgba(240,255,240,0.5);
+}
 .links-container {
   margin-left: 200px;
   display: flex;
