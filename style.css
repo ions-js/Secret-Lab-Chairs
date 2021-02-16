@@ -34,7 +34,7 @@
   margin-right: 1px;
   height: 50px;
   text-align: center;
-  line-height:50px;
+  line-height: 50px;
   font-family: Arial, Helvetica, sans-serif;
   color:  #56504E;
   text-decoration: none;
@@ -69,7 +69,7 @@
 }
 .links-container li ul li a {
   width: auto;
-  min-width: 100px;
+  min-width: 200px;
   padding: 0 20px;
 }
 
@@ -183,89 +183,76 @@ line-height: 0;
   box-shadow: 5px 5px 5px 5px rgba(230, 238, 162, 0.2);
 }
 .video-container {
-  height: 1200px;
+  height: 1400px;
+  display: flex;
+  flex-direction: column;
 }
-#video1 {
-  position: relative;
-  bottom: 100px;
-  z-index: -1;
-}
-#video2 {
-  position: relative;
-  top: 270px;
-  z-index: -1;
+#video1, #video2 {
+  width: 60%;
+  pointer-events: none;
+  flex: 3;
 }
 .comfort, .robust, .cozy, .solid {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 50px;
   font-weight: bolder;
+  flex: 2;
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-card1, .video-card2, .video-card3 {
+  display: flex;
+  flex-direction: row;
 }
 .comfort {
-  padding: 149px 242px;
-  position: relative;
-  left: 667px;
-  bottom: 405px;
-  background-color: #FFFF76;
-  border-radius: 0 0 0 12px;
   transition: 
-  background-color 2s ease-in,
-  color 2s ease-in;
+    background-color 2s ease-in,
+    color 2s ease-in;
 }
 .comfort:hover {
-  background-color: rgb(78, 57, 0);
-  color: rgb(255, 255, 255);
+  background-color: #FFFF76;
+  color: rgb(0, 0, 0);
   transition: 
     background-color 2s ease-out,
     color 2s ease-out;
 }
 .robust {
-  padding: 153px 255px;
-  position: relative;
-  bottom: 110px;
-  background-color: #ABB8F3;
-  border-radius: 0 12px 12px 0;
   transition: 
-  background-color 2s ease-in,
-  color 2s ease-in;
+    background-color 2s ease-in,
+    color 2s ease-in;
 }
 .robust:hover {
-  background-color: rgb(47, 19, 54);
-  color: rgb(255, 255, 255);
+  background-color: rgb(134, 143, 224);
+  color: rgb(0, 0, 0);
   transition: 
     background-color 2s ease-out,
     color 2s ease-out;
 }
 .cozy {
-  padding: 133px 284px;
-  position: relative;
-  top: 167px;
-  left: 668px;
-  background-color: #D68162;
-  border-radius: 12px 0 0 0;
+  padding: 7%;
   transition: 
-  background-color 2s ease-in,
-  color 2s ease-in;
+    background-color 2s ease-in,
+    color 2s ease-in;
 }
 .cozy:hover {
-background-color: rgb(78, 57, 0);
-color: rgb(255, 255, 255);
+background-color: rgb(255, 230, 162);
+color: rgb(0, 0, 0);
 transition: 
   background-color 2s ease-out,
   color 2s ease-out;
 }
 .solid {
-  padding: 135px 280px;
-  position: relative;
-  top: 98px;
-  background-color: #ffcbeb;
-  border-radius: 0 12px 0 0;
   transition: 
   background-color 2s ease-in,
   color 2s ease-in;
 }
 .solid:hover {
-  background-color: rgb(85, 56, 85);
-  color: rgb(255, 255, 255);
+  background-color: rgb(255, 180, 255);
+  color: rgb(0, 0, 0);
   transition: 
     background-color 2s ease-out,
     color 2s ease-out;
