@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Secret Lab Chairs</title>
+    <link href="review.css" rel="stylesheet" type="text/css"/>
     <link href="style.css" rel="stylesheet" type="text/css"/>
-    <link href="https://simplybook.asia/uploads/secretlab/image_files/preview/82893bd161c5e11c90637caa1a337967.jpg" rel="shortcut icon" type="image/img"/>
+    <link href="https://simplybook.asia/uploads/secretlab/image_files/preview/82893bd161c5e11c90637caa1a337967.jpg" rel="icon" type="image/img"/>
   </head>
   <body>
     <header class="navbar-container">
@@ -45,13 +46,228 @@
         </ul>
       </nav>
     </header>
-    <div class="some-contents" style="height:500px;">
+    <div class="contents">
+      <h1 class="heading">Let's hear what our customers have to say</h1>
+      <div class="review-cards">
+        <svg id="stars" style="display: none;" version="1.1">
+          <symbol id="stars-full-star" viewBox="0 0 102 18">
+            <path d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" />
+          </symbol>
+        
+          <symbol id="stars-half-star" viewBox="0 0 102 18">
+            <path d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792" fill="#e9ba26" />
+          </symbol>
+        
+          <symbol id="stars-all-star" viewBox="0 0 102 18">
+            <use xlink:href="#stars-full-star" />
+            <use xlink:href="#stars-full-star" transform="translate(21)" />
+            <use xlink:href="#stars-full-star" transform="translate(42)" />
+            <use xlink:href="#stars-full-star" transform="translate(63)" />
+            <use xlink:href="#stars-full-star" transform="translate(84)" />
+          </symbol>
+        
+          <symbol id="stars-0-0-star" viewBox="0 0 102 18">
+            <use xlink:href="#stars-all-star" fill="#9b9b9b" />
+          </symbol>
+        
+          <symbol id="stars-0-5-star" viewBox="0 0 102 18">
+            <use xlink:href="#stars-0-0-star" />
+            <use xlink:href="#stars-half-star" />
+          </symbol>
+        
+          <symbol id="stars-1-0-star" viewBox="0 0 102 18">
+            <use xlink:href="#stars-0-0-star" />
+            <use xlink:href="#stars-full-star" fill="#e9ba26" />
+          </symbol>
+        
+          <symbol id="stars-1-5-star" viewBox="0 0 102 18">
+            <use xlink:href="#stars-1-0-star" />
+            <use xlink:href="#stars-half-star" transform="translate(21)" />
+          </symbol>
+        
+          <symbol id="stars-2-0-star" viewBox="0 0 102 18">
+            <use xlink:href="#stars-1-0-star" />
+            <use xlink:href="#stars-full-star" fill="#e9ba26" transform="translate(21)" />
+          </symbol>
+        
+          <symbol id="stars-2-5-star" viewBox="0 0 102 18">
+            <use xlink:href="#stars-2-0-star" />
+            <use xlink:href="#stars-half-star" transform="translate(42)" />
+          </symbol>
+        
+          <symbol id="stars-3-0-star" viewBox="0 0 102 18">
+            <use xlink:href="#stars-2-0-star" />
+            <use xlink:href="#stars-full-star" fill="#e9ba26" transform="translate(42)" />
+          </symbol>
+        
+          <symbol id="stars-3-5-star" viewBox="0 0 102 18">
+            <use xlink:href="#stars-3-0-star" />
+            <use xlink:href="#stars-half-star" transform="translate(63)" />
+          </symbol>
+        
+          <symbol id="stars-4-0-star" viewBox="0 0 102 18">
+            <use xlink:href="#stars-3-0-star" />
+            <use xlink:href="#stars-full-star" fill="#e9ba26" transform="translate(63)" />
+          </symbol>
+        
+          <symbol id="stars-4-5-star" viewBox="0 0 102 18">
+            <use xlink:href="#stars-4-0-star" />
+            <use xlink:href="#stars-half-star" transform="translate(84)" />
+          </symbol>
+        
+          <symbol id="stars-5-0-star" viewBox="0 0 102 18">
+            <use xlink:href="#stars-all-star" fill="#e9ba26" />
+          </symbol>
+        </svg>
 
+        <div class="row-1">
+          <figure class="cards">
+            <main id="main">
+              <svg class="icon">
+                <use xlink:href="#stars-5-0-star">
+              </svg>
+            </main>
+            <p>Simply beautiful</p>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content 
+              of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+              distribution of letters.
+            </p>
+            <div class="name">
+              <p>James Hopper</p>
+              <p>- CEO of Playtech Sdn Bhd</p>
+            </div>
+          </figure>
+          <figure class="cards">
+            <main id="main">
+              <svg class="icon">
+                <use xlink:href="#stars-5-0-star">
+              </svg>
+            </main>
+            <p>Simply beautiful</p>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content 
+              of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+              distribution of letters.
+            </p>
+            <div class="name">
+              <p>James Hopper</p>
+              <p>- CEO of Playtech Sdn Bhd</p>
+            </div>
+          </figure>
+        </div>
 
+        <div class="row-2">
+          <figure class="cards">
+            <main id="main">
+              <svg class="icon">
+                <use xlink:href="#stars-5-0-star">
+              </svg>
+            </main>
+            <p>Simply beautiful</p>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content 
+              of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+              distribution of letters.
+            </p>
+            <div class="name">
+              <p>James Hopper</p>
+              <p>- CEO of Playtech Sdn Bhd</p>
+            </div>
+          </figure>
+          <figure class="cards">
+            <main id="main">
+              <svg class="icon">
+                <use xlink:href="#stars-5-0-star">
+              </svg>
+            </main>
+            <p>Simply beautiful</p>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content 
+              of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+              distribution of letters.
+            </p>
+            <div class="name">
+              <p>James Hopper</p>
+              <p>- CEO of Playtech Sdn Bhd</p>
+            </div>
+          </figure>
+        </div>
 
+        <div class="row-3">
+          <figure class="cards">
+            <main id="main">
+              <svg class="icon">
+                <use xlink:href="#stars-5-0-star">
+              </svg>
+            </main>
+            <p>Simply beautiful</p>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content 
+              of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+              distribution of letters.
+            </p>
+            <div class="name">
+              <p>James Hopper</p>
+              <p>- CEO of Playtech Sdn Bhd</p>
+            </div>
+          </figure>
+          <figure class="cards">
+            <main id="main">
+              <svg class="icon">
+                <use xlink:href="#stars-5-0-star">
+              </svg>
+            </main>
+            <p>Simply beautiful</p>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content 
+              of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+              distribution of letters.
+            </p>
+            <div class="name">
+              <p>James Hopper</p>
+              <p>- CEO of Playtech Sdn Bhd</p>
+            </div>
+          </figure>
+        </div>
 
-
-
+        <div class="row-4">
+          <figure class="cards">
+            <main id="main">
+              <svg class="icon">
+                <use xlink:href="#stars-5-0-star">
+              </svg>
+            </main>
+            <p>Simply beautiful</p>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content 
+              of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+              distribution of letters.
+            </p>
+            <div class="name">
+              <p>James Hopper</p>
+              <p>- CEO of Playtech Sdn Bhd</p>
+            </div>
+          </figure>
+          <figure class="cards">
+            <main id="main">
+              <svg class="icon">
+                <use xlink:href="#stars-5-0-star">
+              </svg>
+            </main>
+            <p>Simply beautiful</p>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content 
+              of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+              distribution of letters.
+            </p>
+            <div class="name">
+              <p>James Hopper</p>
+              <p>- CEO of Playtech Sdn Bhd</p>
+            </div>
+          </figure>
+        </div>
+      </div>
     </div>
     <footer class="footer-container">
       <div class="footer-links">
