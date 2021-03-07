@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Secret Lab Chairs</title>
+    <link href="contact_us.css" rel="stylesheet" type="text/css"/>
     <link href="style.css" rel="stylesheet" type="text/css"/>
-    <link href="https://simplybook.asia/uploads/secretlab/image_files/preview/82893bd161c5e11c90637caa1a337967.jpg" rel="shortcut icon" type="image/img"/>
+    <link href="https://simplybook.asia/uploads/secretlab/image_files/preview/82893bd161c5e11c90637caa1a337967.jpg" rel="icon" type="image/img"/>
   </head>
   <body>
     <header class="navbar-container">
@@ -26,7 +27,7 @@
             </ul>
           </li>
 
-          <li><a href="About Us.html">About Us</a>
+          <li><a href="About_Us.html">About Us</a>
             <ul class="hidden">
               <li><a href="https://twitter.com/secretlabchairs?lang=en" target="_blank">Twitter</a></li>
               <li><a href="https://www.facebook.com/Secretlab/" target="_blank">Facebook</a></li>
@@ -35,7 +36,7 @@
               </ul>
           </li>
 
-          <li><a href="ContactUs.html">Contact Us</a>
+          <li><a href="Contact_Us.html">Contact Us</a>
             <ul class="hidden">
               <li><a href="FAQ.html" target="_blank">FAQ</a></li>
               <li><a href="Address.html" target="_blank">Address</a></li>
@@ -45,14 +46,34 @@
         </ul>
       </nav>
     </header>
-    <div class="some-contents" style="height:500px;">
-
-
-
-
-
-
-    </div>
+    <main class="main">
+      <div class="contact-page-heading">
+          <p>Have a question? Get in touch</p>
+      </div>
+      <form class="form-container">
+        <div class="contact-form">
+          <div class="form-row">
+              <label for="name_Input">Name:</label>
+              <input tabindex="1" type="text" name="name" required autocomplete="name" placeholder="Enter Name"/>
+          </div>
+          <div class="form-row">
+              <label for="name_Input">Email:</label>
+              <input tabindex="1" type="email" name="email" required autocomplete="email" placeholder="Enter Email"/>
+          </div>
+          <div class="form-row">
+              <label for="name_Input">Phone Number:</label>
+              <input tabindex="1" type="tel" name="phone" required autocomplete="tel" placeholder="Enter Phone Number"/>
+          </div>
+          <div class="form-row message-box">
+              <label for="name_Input">Type your message:</label>
+              <textarea tabindex="1" type="textarea" name="textarea" required autocomplete="pager" cols="50" row="30" placeholder="Enter message"></textarea>
+          </div>
+          <button type="button">Submit</button>
+        </div>
+      </form>
+      <div class="contact-info">
+      </div>
+    </main>
     <footer class="footer-container">
       <div class="footer-links">
         <nav class="product">
