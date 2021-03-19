@@ -1,116 +1,109 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /*measures width from borders instead of content*/
-  }
-
-@keyframes fade-in {
-    from { opacity: 0;}
-    to { opacity: 1; }
-  }
-
-@keyframes shift-in-left {
-    from {
-        position: relative;
-        right: 800px;
-    }
-    to {
-        position: relative;
-        right: 0px;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 .navbar-container {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: flex;
-  width: 100%;
-  padding: 30px;
-  position: fixed;
-  z-index: 1;
-  background-color:rgba(189, 189, 189, 0.6);
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    position: fixed;
+    background-color:rgba(189, 189, 189, 0.6);
+    z-index: 10;
 }
-
-#navbar-logo {
-  transition: box-shadow 0.5s ease;
-}
-
-#navbar-logo:hover {
-  box-shadow: 
-      5px 5px 20px 10px honeydew,
-      -5px -5px 20px 10px honeydew,
-      inset 5px 5px 20px 10px honeydew,
-      inset -5px -5px 20px 10px honeydew;
-}
-
 .links-container {
   margin-left: 200px;
   display: flex;
   align-items: center;
-  transition: margin-left 1s ease;
+  border-radius: 20px;
+  transition-duration: 1s;
 }
-
-.dropdown {
-  display: none;
-}
-
-.links a:hover + .dropdown, /*Uses + to select dropdown as 'links a' and dropdown on equal hierarchy*/
-.dropdown:hover {
-  display: block;
-}
-
-ul {
-  list-style: none;
+.links-container ul {
+  list-style-type:none;
+  margin:0;
+  padding: 0;
   position: absolute;
 }
-
-.links {
+.links-container li {
   display: inline-block;
+  margin-right: 1px;
 }
-
-.links a {
-  color:  #56504E;
+.links-container li a {
   display: block;
-  padding: 30px;
+  min-width: 150px;
+  margin-right: 1px;
+  height: 50px;
   text-align: center;
+  line-height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  #56504E;
   text-decoration: none;
   font-size: 20px;
-  transition:
-    background-color 0.2s ease,
-    font-size 0.2s ease;
 }
-
-.links:hover a { 
-  background-color:honeydew;
+.links-container li:hover a {
+  background:honeydew;
+  transition-duration: 0.3s;
   font-size: 18px;
 }
 
-.option a {
-  padding: 20px;
+.links-container li:hover ul a {
+  background:rgba(233, 233, 233, 1);
+  color: #56504E;
+  height: 40px;
+  line-height: 40px;
   font-size: 18px;
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease,
-    font-size 0.2 ease;
 }
 
-.links:hover .option:hover a {
-  background-color:rgb(191, 207, 191);
+.links-container li:hover ul a:hover {
+  background: honeydew;
   color: maroon;
+  transition-duration: 0.3s;
   font-size: 16px;
+}
+.links-container li ul {
+  display: none;
+}
+.links-container li ul li {
+  display: block;
+  float: none;
+}
+.links-container li ul li a {
+  width: auto;
+  min-width: 200px;
+  padding: 0 20px;
+}
+
+.links-container ul li a:hover + .hidden, .hidden:hover {
+  display: block;
+}
+
+@media screen and (max-width : 760px){
+  ul {
+        position: static;
+  }
+  
+  li {
+        margin-bottom: 1px;
+  }
+  
+  ul li, li a {
+        width: 100%;
+  }
+
+    .show-menu {
+        display:block;
+  }
 }
 
 a:visited {
-  color:  #56504E;
+  color: purple;
 }
-
 .hero-image-container {
-  line-height: 0;
+line-height: 0;
 }
-
 .feature-model-container {
-  line-height: 0;
+line-height: 0;
 }
-
 .feature-model-description {
   position: absolute;
   top: 1100px;
@@ -121,18 +114,15 @@ a:visited {
   font-style: italic;
   line-height: 1;
 }
-
 #feature-model-title, #hero-image-title {
   font-size: 50px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-bottom: 30px;
 }
-
 #feature-model-text, #hero-image-text {
   font-size: 30px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .hero-image-description {
   position: absolute;
   top: 240px;
@@ -143,7 +133,6 @@ a:visited {
   font-style: italic;
   line-height: 1;
 }
-
 .hero-image-button {
   position: absolute;
   top: 475px;
@@ -162,14 +151,12 @@ a:visited {
   background-color: #EAEAEA;
   text-align: center;
 }
-
 .hero-image-button:hover {
   background-color: honeydew;
   color:maroon;
   text-decoration: none;
   box-shadow: 5px 5px 5px 5px rgba(230, 238, 162, 0.2);
 }
-
 .feature-model-button {
   position: absolute;
   top: 475px;
@@ -188,26 +175,22 @@ a:visited {
   background-color: #EAEAEA;
   text-align: center;
 }
-
 .feature-model-button:hover {
   background-color: honeydew;
   color:maroon;
   text-decoration: none;
   box-shadow: 5px 5px 5px 5px rgba(230, 238, 162, 0.2);
 }
-
 .video-container {
   height: 1400px;
   display: flex;
   flex-direction: column;
 }
-
 #video1, #video2 {
   width: 60%;
   pointer-events: none;
   flex: 3;
 }
-
 .comfort, .robust, .cozy, .solid {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 50px;
@@ -220,18 +203,15 @@ a:visited {
   justify-content: center;
   align-items: center;
 }
-
 .video-card1, .video-card2, .video-card3 {
   display: flex;
   flex-direction: row;
 }
-
 .comfort {
   transition: 
     background-color 2s ease-in,
     color 2s ease-in;
 }
-
 .comfort:hover {
   background-color: #FFFF76;
   color: rgb(0, 0, 0);
@@ -239,13 +219,11 @@ a:visited {
     background-color 2s ease-out,
     color 2s ease-out;
 }
-
 .robust {
   transition: 
     background-color 2s ease-in,
     color 2s ease-in;
 }
-
 .robust:hover {
   background-color: rgb(134, 143, 224);
   color: rgb(0, 0, 0);
@@ -253,14 +231,12 @@ a:visited {
     background-color 2s ease-out,
     color 2s ease-out;
 }
-
 .cozy {
   padding: 7%;
   transition: 
     background-color 2s ease-in,
     color 2s ease-in;
 }
-
 .cozy:hover {
 background-color: rgb(255, 230, 162);
 color: rgb(0, 0, 0);
@@ -268,13 +244,11 @@ transition:
   background-color 2s ease-out,
   color 2s ease-out;
 }
-
 .solid {
   transition: 
   background-color 2s ease-in,
   color 2s ease-in;
 }
-
 .solid:hover {
   background-color: rgb(255, 180, 255);
   color: rgb(0, 0, 0);
@@ -282,29 +256,25 @@ transition:
     background-color 2s ease-out,
     color 2s ease-out;
 }
-
 .footer-container {
   background-color: rgba(153, 153, 153);
-  height: 350px;
+  height: 300%;
+  width: 100%;
   padding: 80px;
-  display: flex;
-  flex-direction: row;
+  margin-bottom: 0px;
 }
-
 .footer-links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex: 1.5;
+  width: 70%;
 }
-
 .footer-links p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   font-weight: bolder;
   padding-bottom: 10px;
 }
-
 .footer-links a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
@@ -313,58 +283,26 @@ transition:
   padding-bottom: 10px;
   color: rgb(70, 70, 70);
 }
-
 .footer-links a:hover {
   color: rgb(0, 0, 0);
 }
 
-table {
-  width: 100%;
+.nav-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 120px;
+  margin-top: 5px;
 }
 
-th,td {
+.footer-container table{
+  width: 100%;
+}
+.footer-container th,td{
   font-size: 25px;
   padding-left: 30px;
+  padding-bottom: 15px;
   text-align: left;
 }
 
-.footer-images {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  margin-left: 100px;
-}
 
-#footer-logo {
-  width: 200px;
-  transition: box-shadow 0.5s ease;
-}
-
-#footer-logo:hover {
-  box-shadow: 
-  5px 5px 20px 10px honeydew,
-  -5px -5px 20px 10px honeydew,
-  inset 5px 5px 20px 10px honeydew,
-  inset -5px -5px 20px 10px honeydew;
-}
-
-.icons-container {
-  display: flex;
-  flex-direction: row;
-  margin-top: 10px;
-  margin-left: 5px;
-}
-
-.icons-container .option a {
-  width: 200px;
-}
-
-.icons-container .links a {
-  font-size: 15px;
-  padding: 7px;
-  margin-right: 5px;
-}
-
-.icons-container .links:hover .option:hover a  {
-  font-size: 15px;
-}
