@@ -11,14 +11,6 @@
     background-color:rgba(189, 189, 189, 0.6);
     z-index: 10;
 }
-.navbar-container a img:hover {
-  transition-duration: 0.5s;
-  box-shadow: 
-     5px 5px 20px 10px rgba(240,255,240,0.5),
-     -5px -5px 20px 10px rgba(240,255,240,0.5),
-     inset 5px 5px 20px 10px rgba(240,255,240,0.5),
-     inset -5px -5px 20px 10px rgba(240,255,240,0.5);
-}
 .links-container {
   margin-left: 200px;
   display: flex;
@@ -88,7 +80,6 @@
 @media screen and (max-width : 760px){
   ul {
         position: static;
-        display: none;
   }
   
   li {
@@ -267,9 +258,10 @@ transition:
 }
 .footer-container {
   background-color: rgba(153, 153, 153);
-  height: 300px;
+  height: 300%;
   width: 100%;
   padding: 80px;
+  margin-bottom: 0px;
 }
 .footer-links {
   display: flex;
@@ -294,10 +286,7 @@ transition:
 .footer-links a:hover {
   color: rgb(0, 0, 0);
 }
-.product, .reviews, .aboutus, .contactus {
-  display: flex;
-  flex-direction: column;
-}
+
 .nav-img-container {
   display: flex;
   flex-direction: row;
@@ -305,3 +294,15 @@ transition:
   width: 120px;
   margin-top: 5px;
 }
+
+.footer-container table{
+  width: 100%;
+}
+.footer-container th,td{
+  font-size: 25px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+
