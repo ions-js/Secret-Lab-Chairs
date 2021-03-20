@@ -16,7 +16,7 @@
         <li class="links">
           <a href="Products.html">Products</a>
           <ul class="dropdown">
-            <li class="option"><a href="Product.html#titan">Titan Series</a></li>
+            <li class="option"><a href ="Product.html#titan">Titan Series</a></li>
             <li class="option"><a href="Product.html#omega">Omega Series</a></li>
             <li class="option"><a href="Product.html#titanxl">Titan XL</a></li>
             <li class="option"><a href="Product.html#specialedition">Special Edition</a></li>
@@ -54,7 +54,8 @@
   </nav>
   <main>
     <div class="image-container">
-      <img src="images/coverpage.jpg" alt="Secretlab Chair">
+      <img src="images/coverpage.jpg"
+            alt="Secretlab Chair">
     </div>
     <div class="introduction">
       <table>
@@ -96,7 +97,8 @@
         Secretlab founders use a direct-to-consumer distribution model to keep prices down.In September 2020, The company was ranked third on Singapore’s top 10 startups by LinkedIn, and CEO Ian Alexander Ang was named EY Entrepreneur Of The Year for Consumer Products, the youngest in the history of the award 
       </p>
     </div>
-    <div class="products-image" id="products">  
+    <div class="products" id="products">
+      <div class="products-image">  
       <div class="title">
         <h1>Products</h1>
       </div>
@@ -116,40 +118,39 @@
             </th>
         </tr>
         <tr>
-          <td>
-            <a href="Product.html#titanxl"><img src="images/secretlab-titan-xl.jpg" alt="secretlab-titan-xl"></a>
-          </td>
-          <td>
-            <a href="Product.html#titan"><img src="images/secretlab-titan.jpg" alt="secretlab-titan"></a>
-          </td>
-          <td>
-            <a href="Product.html#omega"><img src="images/secretlab-omega.jpg" alt="secretlab-omega"></a>
-          </td>
-          <td>
-            <a href="Product.html#specialedition"><img src="images/rust-chair.jpg" alt="special-edition"></a>
+            <td>
+              <a href="Product.html#titanxl"><img src="images/secretlab-titan-xl.jpg" alt="secretlab-titan-xl"></a>
+            </td>
+            <td>
+              <a href="Product.html#titan"><img src="images/secretlab-titan.jpg" alt="secretlab-titan"></a>
+            </td>
+            <td>
+              <a href="Product.html#omega"><img src="images/secretlab-omega.jpg" alt="secretlab-omega"></a>
+            </td>
+            <td>
+              <a href="Product.html#specialedition"><img src="images/rust-chair.jpg" alt="special-edition"></a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="Product.html#titanxl">Secretlab TITAN XL</a>
+            </td>
+            <td>
+              <a href="Product.html#titan">Secretlab TITAN</a>
+            </td>
+            <td>
+              <a href="Product.html#omega">Secretlab OMEGA</a>
+            </td>
+            <td>
+              <a href="Product.html#specialedition">Secretlab SPECIAL EDITION</a>
           </td>
         </tr>
         <tr>
-          <td>
-            <a href="Product.html#titanxl">Secretlab TITAN XL</a>
-          </td>
-          <td>
-            <a href="Product.html#titan">Secretlab TITAN</a>
-          </td>
-          <td>
-            <a href="Product.html#omega">Secretlab OMEGA</a>
-          </td>
-          <td>
-            <a href="Product.html#specialedition">Secretlab SPECIAL EDITION</a>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="4" id="productbutton">
+            <td colspan="4" id="productbutton">
                 <a href="Product.html">Click here to view the details of our products</a>
             </td>
         </tr>
-      </table>
-    </div>
+    </table>
     <div class="partnership-image" id="partner">
       <div class="partnership">
         <div class="title">
@@ -197,8 +198,9 @@
       </ul>
     </div>
     <div class="awards-image" id="awards">
-        <div class="title">
-          <h1>Awards</h1>
+      <div class="title">
+        <h1>Awards</h1>
+      </div>
     </div>
     <div class="awards">
       <div class="paragraph">
@@ -214,59 +216,59 @@
         </ul>
       </div>
     </div>
-    <div class="social-media">
-      <table>
-        <tr>
-          <th colspan="4">
-            You can find us through ~
-          </th>
-        </tr>
-        <tr>
-          <td>
-            <a href="https://twitter.com/secretlabchairs?lang=en"><img src="images/icons8-twitter-circled-48.png" alt="twitter-logo"></a>
-          </td>
-          <td>
-            <a href="https://www.facebook.com/Secretlab/"><img src="images/icons8-facebook-48.png" alt="facebook-logo"></a>
-          </td>
-          <td>
-            <a href="https://www.instagram.com/secretlab/"><img src="images/icons8-instagram-48.png" alt="instagram-logo"></a>
-          </td>
-          <td>
-            <a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ"><img src="images/icons8-play-button-48.png" alt="youtube-logo"></a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="https://twitter.com/secretlabchairs?lang=en">Twitter</a>
-          </td>
-          <td>
-            <a href="https://www.facebook.com/Secretlab/">Facebook</a>
-          </td>
-          <td>
-            <a href="https://www.instagram.com/secretlab/">Instagram</a>
-          </td>
-          <td>
-            <a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ">Youtube</a>
-          </td>
-        </tr>
-        <tr>
-          <th colspan="4">
-            And also ... Our Official Website ~
-          </th>
-        </tr>
-        <tr>
-          <td>
-            &nbsp;
-          </td>
-          <td colspan="2" id="secretlab-logo">
-            <a href="https://my.secretlab.co/"><img src="images/smallsecretlab-logo.png" alt="official-logo"></a>
-          </td>
-          <td>
-            &nbsp;
-          </td>
-        </tr>
-      </table>
-    </div>
+  <div class="social-media">
+    <table>
+      <tr>
+        <th colspan="4">
+          You can find us through ~
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://twitter.com/secretlabchairs?lang=en"><img src="images/icons8-twitter-circled-48.png" alt="twitter-logo"></a>
+        </td>
+        <td>
+          <a href="https://www.facebook.com/Secretlab/"><img src="images/icons8-facebook-48.png" alt="facebook-logo"></a>
+        </td>
+        <td>
+          <a href="https://www.instagram.com/secretlab/"><img src="images/icons8-instagram-48.png" alt="instagram-logo"></a>
+        </td>
+        <td>
+          <a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ"><img src="images/icons8-play-button-48.png" alt="youtube-logo"></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://twitter.com/secretlabchairs?lang=en">Twitter</a>
+        </td>
+        <td>
+          <a href="https://www.facebook.com/Secretlab/">Facebook</a>
+        </td>
+        <td>
+          <a href="https://www.instagram.com/secretlab/">Instagram</a>
+        </td>
+        <td>
+          <a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ">Youtube</a>
+        </td>
+      </tr>
+      <tr>
+        <th colspan="4">
+          And also ... Our Official Website ~
+        </th>
+      </tr>
+      <tr>
+        <td>
+          &nbsp;
+        </td>
+        <td colspan="2" id="secretlab-logo">
+          <a href="https://my.secretlab.co/"><img src="images/smallsecretlab-logo.png" alt="official-logo"></a>
+        </td>
+        <td>
+          &nbsp;
+        </td>
+      </tr>
+    </table>
+  </div>
   </main>
   <footer class="footer-container">
     <div class="footer-links">
@@ -363,6 +365,6 @@
       </div>  
     </div>
   </footer>
-</body> 
-</html> 
-  
+</body>  
+</html>
+    
