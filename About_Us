@@ -1,66 +1,68 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>About Us</title>
-  <link href="style.css" rel="stylesheet" type="text/css"/>
-  <link href="aboutus.css" rel="stylesheet" type="text/css"/>
-  <link href="images/secret-lab-icon.jpg" rel="icon" type="image/img"/>
-</head>
-<body>
-  <nav class="navbar-container">
-    <a href="Homepage.html"><img id="navbar-logo" src="images/Transparent_SecretLab_Logo(black_font)(padded).png" width="200px" alt="logo"></a>
-    <div class="links-container">
-      <ul>
-        <li class="links">
-          <a href="Products.html">Products</a>
-          <ul class="dropdown">
-            <li class="option"><a href="Product.html#titan">Titan Series</a></li>
-            <li class="option"><a href="Product.html#omega">Omega Series</a></li>
-            <li class="option"><a href="Product.html#titanxl">Titan XL</a></li>
-            <li class="option"><a href="Product.html#specialedition">Special Edition</a></li>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>About Us</title>
+    <link href="Resources/style.css" rel="stylesheet" type="text/css"/>
+    <link href="Resources/about.css" rel="stylesheet" type="text/css"/>
+    <link href="AboutUs/shorticon.jpg" rel="shortcut icon" type="image/img"/>
+  </head>
+  <body>
+      <nav class="navbar-container">
+        <a href="Homepage.html"><img id="navbar-logo" src="AboutUs/Transparent_SecretLab_Logo(black_font)(padded).png" width="200px" alt="logo"></a>
+        <div class="links-container">
+          <ul>
+            <li class="links">
+              <a href="Products.html">Products</a>
+              <ul class="dropdown">
+                <li class="option"><a href ="Product.html#titan">Titan Series</a></li>
+                <li class="option"><a href="Product.html#omega">Omega Series</a></li>
+                <li class="option"><a href="Product.html#titanxl">Titan XL</a></li>
+                <li class="option"><a href="Product.html#specialedition">Special Edition</a></li>
+              </ul>
+            </li>
+      
+            <li class="links">
+              <a href="Review.html">Review</a>
+              <ul class ="dropdown">
+                <li class="option"><a href="Awards.html" target="_blank">Awards</a></li>
+                <li class="option"><a href="Reviews.html" target="_blank">Reviews</a></li>
+              </ul>
+            </li>
+      
+            <li class="links">
+              <a href="About_Us.html">About Us</a>
+              <ul class="dropdown">
+                <li class="option"><a href="AboutUs.html" target="_blank">Story</a></li>
+                <li class="option"><a href="AboutUs.html#Products" target="_blank">Products</a></li>
+                <li class="option"><a href="AboutUs.html#partner" target="_blank">Partnership</a></li>
+                <li class="option"><a href="AboutUs.html#awards" target="_blank">Awards</a></li>
+                </ul>
+            </li>
+      
+            <li class="links">
+              <a href="Contact_Us.html">Contact Us</a>
+              <ul class="dropdown">
+                <li class="option"><a href="FAQ.html" target="_blank">FAQ</a></li>
+                <li class="option"><a href="Address.html" target="_blank">Address</a></li>
+                <li class="option"><a href="https://my.secretlab.co/" target="_blank">Official Website</a></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-  
-        <li class="links">
-          <a href="Review.html">Review</a>
-          <ul class ="dropdown">
-            <li class="option"><a href="Awards.html" target="_blank">Awards</a></li>
-            <li class="option"><a href="Reviews.html" target="_blank">Reviews</a></li>
-          </ul>
-        </li>
-  
-        <li class="links">
-          <a href="About_Us.html">About Us</a>
-          <ul class="dropdown">
-            <li class="option"><a href="AboutUs.html" target="_blank">Story</a></li>
-            <li class="option"><a href="AboutUs.html#Products" target="_blank">Products</a></li>
-            <li class="option"><a href="AboutUs.html#partner" target="_blank">Partnership</a></li>
-            <li class="option"><a href="AboutUs.html#awards" target="_blank">Awards</a></li>
-            </ul>
-        </li>
-  
-        <li class="links">
-          <a href="Contact_Us.html">Contact Us</a>
-          <ul class="dropdown">
-            <li class="option"><a href="FAQ.html" target="_blank">FAQ</a></li>
-            <li class="option"><a href="Address.html" target="_blank">Address</a></li>
-            <li class="option"><a href="https://my.secretlab.co/" target="_blank">Official Website</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <main>
-    <div class="image-container">
-      <img src="images/coverpage.jpg" alt="Secretlab Chair">
-    </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="image-container">
+        <img src="AboutUs/coverpage.jpg"
+              alt="Secretlab Chair">
+      </div>
     <div class="introduction">
       <table>
         <tr>
           <td rowspan="2" class="introduction-pic">
-            <img src="images/Transparent_SecretLab_Logo(black_font)(padded).png"
+            <img src="AboutUs/Transparent_SecretLab_Logo(black_font)(padded).png"
             alt="logo">
           </td>
           <td id="textshadow"><b>Secretlab</b> was founded in 2014 by two former competitive gamers Ian Alexander Ang and Alaric Choo.</td>
@@ -71,44 +73,46 @@
       </table>
     </div>
     <div class="story-image">
-      <div class="story">
-        <div class="title">
-          <h1>Story</h1>
+    <div class="story">
+      <div class="title">
+        <h1>Story</h1>
+      </div>
+    </div>
+  </div>
+      <div class="paragraph">
+        <p>
+          Secretlab was founded in 2014 by two former competitive gamers Ian Alexander Ang and Alaric Choo, who set out to create and market computer chairs targeted at computer gamers, having grown disgruntled at the lack of affordable and quality options in the gaming chair market. They got the idea to start the company after they could not find a chair that could be used for long hours and fit both gaming and office setups.
+        </p>
+        <br>
+        <p>
+          They got the idea to start the company after they could not find a chair that could be used for long hours and fit both gaming and office setups. The company officially launched in Singapore in May 2015 and later in the same year launched in Malaysia and Australia followed by the United States in 2016.
+        </p>
+        <br>
+        <div id="line-spacing">
+          <p>In 2017, the company expanded into the United Kingdom, Europe and Canada.</p>
+          <p>In 2019, Secretlab expanded within the South-east Asia region and into the Philippines, Thailand and Indonesia.</p>
+          <p>In 2020, The company moved into Korea, Japan, and New Zealand, part of its expansion into the Asia-Pacific region.</p>
         </div>
+        <br>
+        <p>  
+          Secretlab founders use a direct-to-consumer distribution model to keep prices down.In September 2020, The company was ranked third on Singapore’s top 10 startups by LinkedIn, and CEO Ian Alexander Ang was named EY Entrepreneur Of The Year for Consumer Products, the youngest in the history of the award 
+        </p>
       </div>
-    </div>
-    <div class="paragraph">
-      <p>
-        Secretlab was founded in 2014 by two former competitive gamers Ian Alexander Ang and Alaric Choo, who set out to create and market computer chairs targeted at computer gamers, having grown disgruntled at the lack of affordable and quality options in the gaming chair market. They got the idea to start the company after they could not find a chair that could be used for long hours and fit both gaming and office setups.
-      </p>
-      <br>
-      <p>
-        They got the idea to start the company after they could not find a chair that could be used for long hours and fit both gaming and office setups. The company officially launched in Singapore in May 2015 and later in the same year launched in Malaysia and Australia followed by the United States in 2016.
-      </p>
-      <br>
-      <div id="line-spacing">
-        <p>In 2017, the company expanded into the United Kingdom, Europe and Canada.</p>
-        <p>In 2019, Secretlab expanded within the South-east Asia region and into the Philippines, Thailand and Indonesia.</p>
-        <p>In 2020, The company moved into Korea, Japan, and New Zealand, part of its expansion into the Asia-Pacific region.</p>
-      </div>
-      <br>
-      <p>  
-        Secretlab founders use a direct-to-consumer distribution model to keep prices down.In September 2020, The company was ranked third on Singapore’s top 10 startups by LinkedIn, and CEO Ian Alexander Ang was named EY Entrepreneur Of The Year for Consumer Products, the youngest in the history of the award 
-      </p>
-    </div>
-    <div class="products-image" id="products">  
+    <div class="products" id="products">
+      <div class="products-image">  
       <div class="title">
         <h1>Products</h1>
       </div>
     </div>
-    <div class="paragraph">
-      <p>Secretlab's products are generally targeted at gamers, although the company has also attracted customers from law firms, clinics and corporate offices.</p>
-      <br>
-      <p>The company has released four models, the <strong>Secretlab THRONE</strong> ,<strong>Secretlab TITAN XL</strong>, <strong>Secretlab Titan</strong> , and <strong>Secretlab OMEGA</strong> .The models were revised in May 2019, after three years of research and development, and are sold as the Secretlab 2020 Series.</p>
-      <br>
-      <p>The chair's cushion are made with high density cold-cure foam with metal substructure.The chairs are sold with various upholstery options, including leather, fabric, and leatherette.</p>
+      <div class="paragraph">
+        <p>Secretlab's products are generally targeted at gamers, although the company has also attracted customers from law firms, clinics and corporate offices.</p>
+        <br>
+        <p>The company has released four models, the <strong>Secretlab THRONE</strong> ,<strong>Secretlab TITAN XL</strong>, <strong>Secretlab Titan</strong> , and <strong>Secretlab OMEGA</strong> .The models were revised in May 2019, after three years of research and development, and are sold as the Secretlab 2020 Series.</p>
+        <br>
+        <p>The chair's cushion are made with high density cold-cure foam with metal substructure.The chairs are sold with various upholstery options, including leather, fabric, and leatherette.</p>
+      </div>
     </div>
-    <div class="product-table">
+      <div class="product-table">
       <table>
         <tr>
             <th class="header" colspan="4">
@@ -116,253 +120,224 @@
             </th>
         </tr>
         <tr>
-          <td>
-            <a href="Product.html#titanxl"><img src="images/secretlab-titan-xl.jpg" alt="secretlab-titan-xl"></a>
-          </td>
-          <td>
-            <a href="Product.html#titan"><img src="images/secretlab-titan.jpg" alt="secretlab-titan"></a>
-          </td>
-          <td>
-            <a href="Product.html#omega"><img src="images/secretlab-omega.jpg" alt="secretlab-omega"></a>
-          </td>
-          <td>
-            <a href="Product.html#specialedition"><img src="images/rust-chair.jpg" alt="special-edition"></a>
+
+            <td>
+              <a href="Product.html#titanxl"><img src="AboutUs/secretlab-titan-xl.jpg" alt="secretlab-titan-xl"></a>
+            </td>
+            <td>
+              <a href="Product.html#titan"><img src="AboutUs/secretlab-titan.jpg" alt="secretlab-titan"></a>
+            </td>
+            <td>
+              <a href="Product.html#omega"><img src="AboutUs/secretlab-omega.jpg" alt="secretlab-omega"></a>
+            </td>
+            <td>
+              <a href="Product.html#specialedition"><img src="AboutUs/rust-chair.jpg" alt="special-edition"></a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="Product.html#titanxl">Secretlab TITAN XL</a>
+            </td>
+            <td>
+               <a href="Product.html#titan">Secretlab TITAN</a>
+            </td>
+            <td>
+              <a href="Product.html#omega">Secretlab OMEGA</a>
+            </td>
+            <td>
+              <a href="Product.html#specialedition">Secretlab SPECIAL EDITION</a>
           </td>
         </tr>
         <tr>
-          <td>
-            <a href="Product.html#titanxl">Secretlab TITAN XL</a>
-          </td>
-          <td>
-            <a href="Product.html#titan">Secretlab TITAN</a>
-          </td>
-          <td>
-            <a href="Product.html#omega">Secretlab OMEGA</a>
-          </td>
-          <td>
-            <a href="Product.html#specialedition">Secretlab SPECIAL EDITION</a>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="4" id="productbutton">
+            <td colspan="4" id="productbutton">
                 <a href="Product.html">Click here to view the details of our products</a>
             </td>
         </tr>
-      </table>
-    </div>
-    <div class="partnership-image" id="partner">
-      <div class="partnership">
-        <div class="title">
-          <h1>Partnership</h1>
-        </div>
+    </table>
+</div>
+<div class="partnership-image" id="partner">
+    <div class="partnership">
+      <div class="title">
+        <h1>Partnership</h1>
       </div>
     </div>
-    <div class="paragraph">
-      <h2>International e-sports events</h2>
-      <ul>
-        <li>League of Legends competitions such as the League of Legends World Championship, League of Legends Championship Series and the League of Legends European Championship (LEC)</li>
-        <br>
-        <li>International Dota 2 tournaments such as The International 2019, the MDL Disneyland Paris Major, Kuala Lumpur Major, the Bucharest Major and the Bucharest Minor.</li>
-        <br>
-        <li>Counter-Strike: Global Offensive tournaments such as the StarLadder Major: Berlin 2019.</li>
-        <br>
-        <li>National PlayerUnknown Battlegrounds League</li>
-      </ul>
-    </div>
-    <div class="paragraph">
-      <h2>International e-sports teams</h2>
-      <ul class="select">
-        <li>The company has also partnered with international e-sports teams <a href="https://esportsinsider.com/2020/04/team-liquid-secretlab-partnership/">Team Liquid</a><img src="images/teamliquid-chair.jpg" alt="team-liquid-chair" id="hide">, <a href="https://ogs.gg/secretlab-dreamog-edition-gaming-seat/">Team OG</a><img src="images/og-chair.jpg" alt="OG" id="hide">, <a href="https://hardcoregamer.com/2020/01/09/secretlab-chairs-announces-g2-esports-collaboration/364886/"></a>G2 Esports<img src="images/G2.jpg" alt="G2" id="hide">, <a href="https://esports-marketing-blog.com/cloud9-and-secretlab-launch-partnership-special-edition-chair/">Cloud9</a><img src="images/Cloud9.jpg" alt="Cloud9" id="hide"> ,<a href="https://esportsinsider.com/2018/08/team-secret-secretlab-partnership/">Team Secret</a><img src="images/teamsecret-chair.jpg" alt="teamchair" id="hide">,<a href="https://esportsinsider.com/2019/08/astralis-secretlab-partnership/">Astralis</a><img src="images/astralis.jpg" alt="astralis" id="hide">, <a href="https://esportsinsider.com/2019/08/astralis-secretlab-partnership/">T1</a><img src="images/T1.jpg" alt="T1" id="hide">, and <a href="https://esportsinsider.com/2020/07/evil-geniuses-secretlab/">Evil Geniuses</a><img src="images/evilgeniuses.png" alt="evilgeniuses" id="hide"></li>
-      </ul>
-    </div>
-    <div class="paragraph">
-      <h2>Other partnerships</h2>
-      <!--Display images when hover links below -->
-      <ul class="select">             
-        <li>April 2019 - Secretlab announced a partnership with Warner Bros Consumer. Products for a co-branded Secretlab <a href="https://www.thexboxhub.com/secretlab-celebrate-batmans-80th-anniversary-with-the-stunning-dark-knight-edition-gaming-chair/">Dark Knight Edition</a><img src="images/dark-knight-chair.jpg" alt="dark-knight-chair" id="hide"> gaming chair to commemorate Batman's 80th anniversary.</li>
-        <br>
-        <li>May 2019 - Secretlab and television network HBO also announced the world's first <a href="https://www.lowyat.net/2019/185307/secretlab-and-hbo-have-made-game-of-thrones-themed-chairs-features-stark-lannister-targaryen-sigils/" target="_blank">Game of Thrones</a><img src="images/game-of-thrones-chair.jpg" alt="game_of_thrones_chair" id="hide"> gaming seats, themed after the three fan-favourite Houses from the series: House Stark, House Lannister and House Targaryen</li>
-        <br>
-        <li>August 2019 - Valve and Secretlab announced the world's first <a href="https://geekculture.co/singapores-secretlab-is-now-official-gaming-chair-for-biggest-dota-2-global-esports-tournament/" target="_blank">Dota 2 Edition</a><img src="images/dota-2-chair.jpg" alt="Dota2 Chair" id="hide" > gaming chairs ahead of The International 2019, where Secretlab was also named as an official hardware provider for the tournament.</li>
-        <br>
-        <li>November 2019 - Secretlab became the first gaming chair brand to collaborate with Blizzard Entertainment to release the world's first officially licensed <a href="https://comicbook.com/gaming/news/secretlab-overwatch-gaming-chairs/" target="_blank">Overwatch</a><img src="images/overwatch-chair.png" alt="Overwatch Chair" id="hide"> and <a href="https://comicbook.com/gaming/news/secretlab-overwatch-gaming-chairs/" target="_blank">D.Va edition</a><img src="images/dva-chair.png" alt="DVA Chair" id="hide"> gaming seats. The companies partnered again in October 2020 for the first World of Warcraft Alliance and Horde Edition chairs.</li>
-        <br>
-        <li>June 2020 - Secretlab teamed up with Witcher 3 developer CD Projekt Red to release the <a href="https://www.windowscentral.com/secretlabs-releases-cyberpunk-2077-gaming-chair-and-it-looks-amazing" target="_blank">Secretlab Cyberpunk 2077 Edition chair.</a><img src ="images/cyberpunk-chair.jpg" alt="Cyberpunk Chair" id="hide"></li>
-        <br>
-        <li>August 2020 - Secretlab revealed the League of Legends Champions Collection designed in collaboration with Riot Games and featuring four chairs inspired by fan-favorite champions Ahri, Akali, and Yasuo and virtual pop group K/DA.<a href="https://screenrant.com/secretlab-league-legends-kda-all-out-edition/" target="_blank">The K/DA ALL OUT Edition</a><img src="images/kda-lol-chair.jpg" alt="KDA Chair" id="hide"> was added to the collection in October 2020 to celebrate the band’s comeback and new album</li>
-        <br>
-        <li>September 2020 - Secretlab announced that it had been chosen as the official chair partner of the League of Legends World Championship 2020 for the second year running, it released a special edition design, the <a href="https://my.secretlab.co/pages/lolesports" target="_blank">Secretlab Worlds 2020 Edition</a><img src="images/lol-worlds20-chairs-min.png" alt="lol20_chair" id="hide"></li>
-        <br>
-        <li>October 2020 - Secretlab partnered with independent game development studio Facepunch Studios to release the <a href="https://blog.secretlab.co/stories/rust-edition-chair/" target="_blank">Secretlab Rust Edition</a>,<img id="hide" src="images/rust-chair.jpg">which comes with the first Rust in-game Secretlab chair blueprint, only obtainable by purchasing the official chair.</li>
-      </ul>
-    </div>
-    <div class="awards-image" id="awards">
-        <div class="title">
-          <h1>Awards</h1>
-    </div>
-    <div class="awards">
+  </div>
       <div class="paragraph">
-        <p>Click the text below for more information <span style="font-size: 20px;">&#128077</span></p>
+        <h2>International e-sports events</h2>
         <ul>
-          <li><a href="https://www.businesstimes.com.sg/hub/emerging-enterprise-2017/celebrating-entrepreneurs-who-dare" target="_blank">The Emerging Enterprise Award (2017)</a></li>
-          <li><a href="https://www.pcgamer.com/hardware-of-the-year-awards-2019/" target="_blank">Hardware of the Year Award, PCGame2 (2019)</a></li>
-          <li><a href="https://www.tomshardware.com/reviews/secretlab-omega-2020-gaming-chair,6211.html" target="_blank">Editor's Choice Award, Tom's Hardware</a></li>
-          <li><a href="https://www.tweaktown.com/reviews/9007/secretlab-2020-series-gold-standard-gaming-chairs/index.html" target="_blank">Editor's Choice Award, TweakTown</a></li>
-          <li><a href="https://gameranx.com/features/id/112454/article/secretlab-omega-gaming-chair-review/" target="_blank">Editor's Choice Award, Gameranx</a></li>
-          <li><a href="https://www.gamesradar.com/best-gaming-chair/" target="_blank">Editor's Choice, GamesRadar+</a></li>
-          <li><a href="https://www.gamesradar.com/the-gamesradar-hardware-awards-2020-winners-have-just-been-announced/#section-best-gaming-chair-secretlab-omega-2020" target="_blank">Best Gaming Chair, GamesRadar+ (2020)</a></li>
+          <li>League of Legends competitions such as the League of Legends World Championship, League of Legends Championship Series and the League of Legends European Championship (LEC)</li>
+          <br>
+          <li>International Dota 2 tournaments such as The International 2019, the MDL Disneyland Paris Major, Kuala Lumpur Major, the Bucharest Major and the Bucharest Minor.</li>
+          <br>
+          <li>Counter-Strike: Global Offensive tournaments such as the StarLadder Major: Berlin 2019.</li>
+          <br>
+          <li>National PlayerUnknown Battlegrounds League</li>
+        </ul>
+      </div>
+      <div class="paragraph">
+        <h2>International e-sports teams</h2>
+        <ul class="select">
+          <li>The company has also partnered with international e-sports teams <a href="">Team Liquid</a><img src="AboutUs/teamliquid-chair.jpg" alt="team-liquid-chair" id="hide">, <a href="https://ogs.gg/secretlab-dreamog-edition-gaming-seat/">Team OG</a><img src="AboutUs/og-chair.jpg" alt="OG" id="hide">, <a href="https://hardcoregamer.com/2020/01/09/secretlab-chairs-announces-g2-esports-collaboration/364886/"></a>G2 Esports<img src="AboutUs/G2.jpg" alt="G2" id="hide">, <a href="https://esports-marketing-blog.com/cloud9-and-secretlab-launch-partnership-special-edition-chair/">Cloud9</a><img src="AboutUs/Cloud9.jpg" alt="Cloud9" id="hide"> ,<a href="https://esportsinsider.com/2018/08/team-secret-secretlab-partnership/">Team Secret</a><img src="AboutUs/teamsecret-chair.jpg" alt="teamchair" id="hide">,<a href="https://esportsinsider.com/2019/08/astralis-secretlab-partnership/">Astralis</a><img src="AboutUs/astralis.jpg" alt="astralis" id="hide">, <a href="https://esportsinsider.com/2019/08/astralis-secretlab-partnership/">T1</a><img src="AboutUs/T1.jpg" alt="T1" id="hide">, and <a href="https://esportsinsider.com/2020/07/evil-geniuses-secretlab/">Evil Geniuses</a><img src="AboutUs/evilgeniuses.png" alt="evilgeniuses" id="hide"></li>
+        </ul>
+      </div>
+      <div class="paragraph">
+        <h2>Other partnerships</h2>
+<!--Display images when hover links below -->
+        <ul class="select">             
+          <li>April 2019 - Secretlab announced a partnership with Warner Bros Consumer. Products for a co-branded Secretlab <a href="https://www.thexboxhub.com/secretlab-celebrate-batmans-80th-anniversary-with-the-stunning-dark-knight-edition-gaming-chair/">Dark Knight Edition</a><img src="AboutUs/dark-knight-chair.jpg" alt="dark-knight-chair" id="hide"> gaming chair to commemorate Batman's 80th anniversary.</li>
+          <br>
+          <li>May 2019 - Secretlab and television network HBO also announced the world's first <a href="https://www.lowyat.net/2019/185307/secretlab-and-hbo-have-made-game-of-thrones-themed-chairs-features-stark-lannister-targaryen-sigils/" target="_blank">Game of Thrones</a><img src="AboutUs/game-of-thrones-chair.jpg" alt="game_of_thrones_chair" id="hide"> gaming seats, themed after the three fan-favourite Houses from the series: House Stark, House Lannister and House Targaryen</li>
+          <br>
+          <li>August 2019 - Valve and Secretlab announced the world's first <a href="https://geekculture.co/singapores-secretlab-is-now-official-gaming-chair-for-biggest-dota-2-global-esports-tournament/" target="_blank">Dota 2 Edition</a><img src="AboutUs/dota-2-chair.jpg" alt="Dota2 Chair" id="hide" > gaming chairs ahead of The International 2019, where Secretlab was also named as an official hardware provider for the tournament.</li>
+          <br>
+          <li>November 2019 - Secretlab became the first gaming chair brand to collaborate with Blizzard Entertainment to release the world's first officially licensed <a href="https://comicbook.com/gaming/news/secretlab-overwatch-gaming-chairs/" target="_blank">Overwatch</a><img src="AboutUs/overwatch-chair.png" alt="Overwatch Chair" id="hide"> and <a href="https://comicbook.com/gaming/news/secretlab-overwatch-gaming-chairs/" target="_blank">D.Va edition</a><img src="AboutUs/dva-chair.png" alt="DVA Chair" id="hide"> gaming seats. The companies partnered again in October 2020 for the first World of Warcraft Alliance and Horde Edition chairs.</li>
+          <br>
+          <li>June 2020 - Secretlab teamed up with Witcher 3 developer CD Projekt Red to release the <a href="https://www.windowscentral.com/secretlabs-releases-cyberpunk-2077-gaming-chair-and-it-looks-amazing" target="_blank">Secretlab Cyberpunk 2077 Edition chair.</a><img src ="AboutUs/cyberpunk-chair.jpg" alt="Cyberpunk Chair" id="hide"></li>
+          <br>
+          <li>August 2020 - Secretlab revealed the League of Legends Champions Collection designed in collaboration with Riot Games and featuring four chairs inspired by fan-favorite champions Ahri, Akali, and Yasuo and virtual pop group K/DA.<a href="https://screenrant.com/secretlab-league-legends-kda-all-out-edition/" target="_blank">The K/DA ALL OUT Edition</a><img src="AboutUs/kda-lol-chair.jpg" alt="KDA Chair" id="hide"> was added to the collection in October 2020 to celebrate the band’s comeback and new album</li>
+          <br>
+          <li>September 2020 - Secretlab announced that it had been chosen as the official chair partner of the League of Legends World Championship 2020 for the second year running, it released a special edition design, the <a href="https://my.secretlab.co/pages/lolesports" target="_blank">Secretlab Worlds 2020 Edition</a><img src="AboutUs/lol-worlds20-chairs-min.png" alt="lol20_chair" id="hide"></li>
+          <br>
+          <li>October 2020 - Secretlab partnered with independent game development studio Facepunch Studios to release the <a href="https://blog.secretlab.co/stories/rust-edition-chair/" target="_blank">Secretlab Rust Edition</a>,<img id="hide" src="AboutUs/rust-chair.jpg">which comes with the first Rust in-game Secretlab chair blueprint, only obtainable by purchasing the official chair.</li>
         </ul>
       </div>
     </div>
-    <div class="social-media">
-      <table>
-        <tr>
-          <th colspan="4">
-            You can find us through ~
-          </th>
-        </tr>
-        <tr>
-          <td>
-            <a href="https://twitter.com/secretlabchairs?lang=en"><img src="images/icons8-twitter-circled-48.png" alt="twitter-logo"></a>
-          </td>
-          <td>
-            <a href="https://www.facebook.com/Secretlab/"><img src="images/icons8-facebook-48.png" alt="facebook-logo"></a>
-          </td>
-          <td>
-            <a href="https://www.instagram.com/secretlab/"><img src="images/icons8-instagram-48.png" alt="instagram-logo"></a>
-          </td>
-          <td>
-            <a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ"><img src="images/icons8-play-button-48.png" alt="youtube-logo"></a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="https://twitter.com/secretlabchairs?lang=en">Twitter</a>
-          </td>
-          <td>
-            <a href="https://www.facebook.com/Secretlab/">Facebook</a>
-          </td>
-          <td>
-            <a href="https://www.instagram.com/secretlab/">Instagram</a>
-          </td>
-          <td>
-            <a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ">Youtube</a>
-          </td>
-        </tr>
-        <tr>
-          <th colspan="4">
-            And also ... Our Official Website ~
-          </th>
-        </tr>
-        <tr>
-          <td>
-            &nbsp;
-          </td>
-          <td colspan="2" id="secretlab-logo">
-            <a href="https://my.secretlab.co/"><img src="images/smallsecretlab-logo.png" alt="official-logo"></a>
-          </td>
-          <td>
-            &nbsp;
-          </td>
-        </tr>
-      </table>
+  <div class="awards-image" id="awards">
+      <div class="title">
+        <h1>Awards</h1>
     </div>
-  </main>
-  <footer class="footer-container">
-    <div class="footer-links">
-      <table>
-        <thead>
-        <tr>
-          <th>Products</th>
-          <th>Review</th>
-          <th>About Us</th>
-          <th>Contact Us</th>
-        </tr>
-        </thead>
-        <tbody>
-          <tr>
-          <td> <a href="" target="_blank">Titan Series</a></td>
-          <td><a href="" target="_blank">Awards</a> </td>
-          <td><a href="https://twitter.com/secretlabchairs?lang=en" target="_blank">Twitter</a></td>
-          <td><a href="" target="_blank">FAQ</a></td>
-          </tr>
-          <tr>
-              <td><a href="" target="_blank">Omega Series</a></td>
-              <td><a href="" target="_blank">Reviews</a> </td>
-              <td><a href="https://www.facebook.com/Secretlab/" target="_blank">Facebook</a></td>
-              <td><a href="" target="_blank">Address</a></td>
-          </tr>
-          <tr>
-              <td></td>
-              <td></td>
-              <td><a href="https://www.instagram.com/secretlab/" target="_blank">Instagram</a></td>
-              <td><a href="" target="_blank">Official Website</a></td>
-          </tr>
-          <tr>
-              <td></td>
-              <td></td>
-              <td><a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ" target="_blank">Youtube</a></td>
-              <td></td>
-          </tr>
-          <tr>
-              <td></td>
-              <td></td>
-              <td><a href="AboutUs.html" target="_blank">Story</a></td>
-              <td></td>
-          </tr>
-        </tbody>
-      </table>
+  </div>
+<div class="awards">
+    <div class="paragraph">
+      <p>Click the text below for more information <span style="font-size: 20px;">&#128077</span></p>
+      <ul>
+        <li><a href="https://www.businesstimes.com.sg/hub/emerging-enterprise-2017/celebrating-entrepreneurs-who-dare" target="_blank">The Emerging Enterprise Award (2017)</a></li>
+        <li><a href="https://www.pcgamer.com/hardware-of-the-year-awards-2019/" target="_blank">Hardware of the Year Award, PCGame2 (2019)</a></li>
+        <li><a href="https://www.tomshardware.com/reviews/secretlab-omega-2020-gaming-chair,6211.html" target="_blank">Editor's Choice Award, Tom's Hardware</a></li>
+        <li><a href="https://www.tweaktown.com/reviews/9007/secretlab-2020-series-gold-standard-gaming-chairs/index.html" target="_blank">Editor's Choice Award, TweakTown</a></li>
+        <li><a href="https://gameranx.com/features/id/112454/article/secretlab-omega-gaming-chair-review/" target="_blank">Editor's Choice Award, Gameranx</a></li>
+        <li><a href="https://www.gamesradar.com/best-gaming-chair/" target="_blank">Editor's Choice, GamesRadar+</a></li>
+        <li><a href="https://www.gamesradar.com/the-gamesradar-hardware-awards-2020-winners-have-just-been-announced/#section-best-gaming-chair-secretlab-omega-2020" target="_blank">Best Gaming Chair, GamesRadar+ (2020)</a></li>
+      </ul>
     </div>
-    <div class="footer-images">
-      <a href="Homepage.html"><img id="footer-logo" src="https://www.kindpng.com/picc/m/5-53981_transparent-secretlab-logo-padded-secret-lab-logo-png.png" width="200px" alt="logo"></a>
-      <div class="icons-container">
-        <ul>
-          <li class="links">
-            <a href="https://twitter.com/secretlabchairs?lang=en" target="_blank"><img width="25" src="images/twitter.png" alt="twitter-icon"/></a>
-            <ul class="dropdown">
-              <li class="option"> 
-                <a href="https://iconscout.com/icons/twitter" target="_blank">Twitter Icon</a>
-                <a href="https://iconscout.com/contributors/unicons">by Unicons Font</a>
-                <a href="https://iconscout.com">on Iconscout</a>
-              </li>
-            </ul>
-          </li>
-  
-          <li class="links">
-            <a href="https://www.facebook.com/Secretlab/" target="_blank"><img width="25" src="images/facebook.png" alt="facebook-icon"/></a>
-            <ul class="dropdown">
-              <li class="option">
-                <a href="https://iconscout.com/icons/facebook" target="_blank">Facebook Logo Icon</a>
-                <a href="https://iconscout.com/contributors/roundicons-com" target="_blank">by Roundicons .com</a>  
-                <a href="https://iconscout.com">on Iconscout</a></li>
-              </li>    
-            </ul>
-          </li>
-  
-          <li class="links">
-            <a href="https://www.instagram.com/secretlab/" target="_blank"><img width="25" src="images/instagram.png" alt="instagram-icon"></a>
-            <ul class="dropdown">
-              <li class="option">
-                <a href="https://iconscout.com/icons/instagram" target="_blank">Instagram Icon</a>
-                <a href="https://iconscout.com/contributors/unicons" target="_blank">by Unicons Font</a>
-                <a href="https://iconscout.com">on Iconscout</a></li>
-              </li>
-            </ul>
-          </li>
-  
-          <li class="links">
-            <a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ" target="_blank"><img width="25" src="images/youtube.png" alt="youtube-icon"/></a>
-            <ul class="dropdown">
-              <li class="option">
-                <a href="https://iconscout.com/icons/youtube" target="_blank">Youtube Icon by</a>
-                <a href="https://iconscout.com/contributors/unicons">Unicons Font</a>
-                <a href="https://iconscout.com">on Iconscout</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>  
-    </div>
-  </footer>
-</body> 
-</html> 
-  
+  </div>
+  <div class="social-media">
+    <table>
+      <tr>
+        <th colspan="4">
+          You can find us through ~
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://twitter.com/secretlabchairs?lang=en"><img src="AboutUs/icons8-twitter-circled-48.png" alt="twitter-logo"></a>
+        </td>
+        <td>
+          <a href="https://www.facebook.com/Secretlab/"><img src="AboutUs/icons8-facebook-48.png" alt="facebook-logo"></a>
+        </td>
+        <td>
+          <a href="https://www.instagram.com/secretlab/"><img src="AboutUs/icons8-instagram-48.png" alt="instagram-logo"></a>
+        </td>
+        <td>
+          <a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ"><img src="AboutUs/icons8-play-button-48.png" alt="youtube-logo"></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://twitter.com/secretlabchairs?lang=en">Twitter</a>
+        </td>
+        <td>
+          <a href="https://www.facebook.com/Secretlab/">Facebook</a>
+        </td>
+        <td>
+          <a href="https://www.instagram.com/secretlab/">Instagram</a>
+        </td>
+        <td>
+          <a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ">Youtube</a>
+        </td>
+      </tr>
+      <tr>
+        <th colspan="4">
+          And also ... Our Official Website ~
+        </th>
+      </tr>
+      <tr>
+        <td>
+          &nbsp;
+        </td>
+        <td colspan="2" id="secretlab-logo">
+          <a href="https://my.secretlab.co/"><img src="AboutUs/smallsecretlab-logo.png" alt="official-logo"></a>
+        </td>
+        <td>
+          &nbsp;
+        </td>
+    </tr>
+    </table>
+  </div>
+    </main>
+    <footer class="footer-container">
+      <div class="footer-links">
+          <table>
+            <thead>
+            <tr>
+                <th>Products</th>
+                <th>Review</th>
+                <th>About Us</th>
+                <th>Contact Us</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td> <a href="" target="_blank">Titan Series</a></td>
+                <td><a href="" target="_blank">Awards</a> </td>
+                <td><a href="https://twitter.com/secretlabchairs?lang=en" target="_blank">Twitter</a></td>
+                <td><a href="" target="_blank">FAQ</a></td>
+                </tr>
+                <tr>
+                    <td><a href="" target="_blank">Omega Series</a></td>
+                    <td><a href="" target="_blank">Reviews</a> </td>
+                    <td><a href="https://www.facebook.com/Secretlab/" target="_blank">Facebook</a></td>
+                    <td><a href="" target="_blank">Address</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><a href="https://www.instagram.com/secretlab/" target="_blank">Instagram</a></td>
+                    <td><a href="" target="_blank">Official Website</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ" target="_blank">Youtube</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><a href="AboutUs.html" target="_blank">Story</a></td>
+                    <td></td>
+                </tr>
+            </tbody>
+          </table>
+
+        <nav class="nav-img-container">
+          <a href="https://twitter.com/secretlabchairs?lang=en" target="_blank">
+          <svg viewBox="0 0 32 32" role="img" aria-label="Navigate to Twitter" focusable="false" style="height:18px;width:18px;display:block;fill:currentColor"><path d="m31 6.36c-1.16.49-2.32.82-3.55.95 1.29-.76 2.22-1.87 2.72-3.38a13.05 13.05 0 0 1 -3.91 1.51c-1.23-1.28-2.75-1.94-4.51-1.94-3.41 0-6.17 2.73-6.17 6.12 0 .49.07.95.17 1.38-4.94-.23-9.51-2.6-12.66-6.38-.56.95-.86 1.97-.86 3.09 0 2.07 1.03 3.91 2.75 5.06-1-.03-1.92-.3-2.82-.76v.07c0 2.89 2.12 5.42 4.94 5.98-.63.17-1.16.23-1.62.23-.3 0-.7-.03-1.13-.13a6.07 6.07 0 0 0 5.74 4.24c-2.22 1.74-4.78 2.63-7.66 2.63-.56 0-1.06-.03-1.43-.1 2.85 1.84 6 2.76 9.41 2.76 7.29 0 12.83-4.01 15.51-9.3 1.36-2.66 2.02-5.36 2.02-8.09v-.46c-.03-.17-.03-.3-.03-.33a12.66 12.66 0 0 0 3.09-3.16" fill-rule="evenodd"></path></svg></a>
+
+          <a href="https://www.facebook.com/Secretlab/" target="_blank">
+          <svg viewBox="0 0 32 32" role="img" aria-label="Navigate to Facebook" focusable="false" 
+          style="height:18px;width:18px;display:block;fill:currentColor"><path d="m8 14.41v-4.17c0-.42.35-.81.77-.81h2.52v-2.08c0-4.84 2.48-7.31 7.42-7.35 1.65 0 3.22.21 4.69.64.46.14.63.42.6.88l-.56 4.06c-.04.18-.14.35-.32.53-.21.11-.42.18-.63.14-.88-.25-1.78-.35-2.8-.35-1.4 0-1.61.28-1.61 1.73v1.8h4.52c.42 0 .81.42.81.88l-.35 4.17c0 .42-.35.71-.77.71h-4.21v16c0 .42-.35.81-.77.81h-5.21c-.42 0-.8-.39-.8-.81v-16h-2.52a.78.78 0 0 1 -.78-.78" fill-rule="evenodd"></path></svg></a>
+          
+          <a href="https://www.instagram.com/secretlab/" target="_blank">
+          <svg viewBox="0 0 24 24" role="img" aria-label="Navigate to Instagram" focusable="false" style="height:18px;width:18px;display:block;fill:currentColor"><path d="m23.09.91c-.61-.61-1.33-.91-2.17-.91h-17.84c-.85 0-1.57.3-2.17.91s-.91 1.33-.91 2.17v17.84c0 .85.3 1.57.91 2.17s1.33.91 2.17.91h17.84c.85 0 1.57-.3 2.17-.91s.91-1.33.91-2.17v-17.84c0-.85-.3-1.57-.91-2.17zm-14.48 7.74c.94-.91 2.08-1.37 3.4-1.37 1.33 0 2.47.46 3.41 1.37s1.41 2.01 1.41 3.3-.47 2.39-1.41 3.3-2.08 1.37-3.41 1.37c-1.32 0-2.46-.46-3.4-1.37s-1.41-2.01-1.41-3.3.47-2.39 1.41-3.3zm12.66 11.63c0 .27-.09.5-.28.68a.92.92 0 0 1 -.67.28h-16.7a.93.93 0 0 1 -.68-.28.92.92 0 0 1 -.27-.68v-10.13h2.2a6.74 6.74 0 0 0 -.31 2.05c0 2 .73 3.71 2.19 5.12s3.21 2.12 5.27 2.12a7.5 7.5 0 0 0 3.75-.97 7.29 7.29 0 0 0 2.72-2.63 6.93 6.93 0 0 0 1-3.63c0-.71-.11-1.39-.31-2.05h2.11v10.12zm0-13.95c0 .3-.11.56-.31.77a1.05 1.05 0 0 1 -.77.31h-2.72c-.3 0-.56-.11-.77-.31a1.05 1.05 0 0 1 -.31-.77v-2.58c0-.29.11-.54.31-.76s.47-.32.77-.32h2.72c.3 0 .56.11.77.32s.31.47.31.76z" fill-rule="evenodd"></path></svg></a>
+      
+          <a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-label="Navigate to YouTube" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="21px" height="21px" viewBox="0 0 96.875 96.875" style="enable-background:new 0 0 96.875 96.875; fill:currentColor" xml:space="preserve" ><g><path d="M95.201,25.538c-1.186-5.152-5.4-8.953-10.473-9.52c-12.013-1.341-24.172-1.348-36.275-1.341   c-12.105-0.007-24.266,0-36.279,1.341c-5.07,0.567-9.281,4.368-10.467,9.52C0.019,32.875,0,40.884,0,48.438   C0,55.992,0,64,1.688,71.336c1.184,5.151,5.396,8.952,10.469,9.52c12.012,1.342,24.172,1.349,36.277,1.342   c12.107,0.007,24.264,0,36.275-1.342c5.07-0.567,9.285-4.368,10.471-9.52c1.689-7.337,1.695-15.345,1.695-22.898   C96.875,40.884,96.889,32.875,95.201,25.538z M35.936,63.474c0-10.716,0-21.32,0-32.037c10.267,5.357,20.466,10.678,30.798,16.068   C56.434,52.847,46.23,58.136,35.936,63.474z"/></g></svg></a>
+        </nav>
+      </div>
+      <div class="copyright">
+        <cite>
+          &copy This is not a official website. Some of the information are obtained from Secretlab Chairs Official Website and Wikipedia.
+        </cite>
+     </div>
+    </footer>
