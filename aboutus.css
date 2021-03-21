@@ -1,0 +1,356 @@
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      filter: blur(5px);
+    }
+    50% {
+      filter: blur(3px);
+    }
+    75% {
+      filter: blur(1px);
+    }
+    to {
+      opacity: 1;
+      filter: blur(0px);
+
+    }
+  }
+
+main {
+    animation: fade-in 2s;
+}
+  
+.image-container{
+    width: 100%;
+    height: auto;
+}
+
+.image-container img {
+    width: 100%;
+    animation: fade-in 2s;
+}
+
+.introduction table{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width : 100%
+}
+
+.introduction-pic > img{
+    border: 2px solid black;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+    transition:ease-in 1s;
+    transform:rotate(360deg);
+    width: 90%;
+    animation-name: boxshadow-colour;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+/*changes color and create textshadow for texts*/
+#textshadow{
+    color: rgb(206, 143, 66);
+    text-shadow: 1px 1px rgb(116, 116, 116);
+    background-color:ghostwhite;
+}
+
+.story-image{
+    background-image: url(images/awards-splash-mobile-min.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.products{
+    margin-top: 0px;
+}
+.product-table table{
+    table-layout: fixed;
+    width : 100%;
+    margin-bottom: 2%;
+}
+
+.product-table table:hover{
+    background-color: rgb(207, 205, 205);
+    color: rgb(255, 255, 255);
+}
+
+.product-table tr th ,.product-table tr td{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.product-table th{
+    font-size: 80px;
+    transition: ease-in;
+    transition-duration: 0.5s;
+}
+
+.product-table tr td img{
+    height:300px;
+    animation: boxshadow-colour 2s infinite;
+    border: 2px solid grey;
+}
+.product-table td a {
+    color: black;
+    text-decoration: none;
+}
+
+.product-table td a:hover{
+    color: rgb(21, 111, 146);
+    text-decoration: underline;
+}
+/*makes the img bigger when hovered to create interaction*/
+.product-table tr td img:hover{
+    height:360px;
+}
+
+#productbutton{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#productbutton a {
+    padding:10px;
+    background-color: rgb(201, 201, 201);
+    color: black;
+}
+/*makes the productbutton changes its color and create shadow when hovered to create interaction*/
+#productbutton a:hover {
+    padding:15px;
+    color: rgb(21, 111, 146);
+    background-color: ghostwhite;
+    box-shadow:5px 5px 5px whitesmoke;
+}
+
+/*align the title text at center and increase opacity of image using rgba in the div */
+.title{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(22, 22, 22, 0.6);
+    height: 100vh;
+    width: 100%;
+    font-size: 4em;
+    color: rgb(241, 241, 241);
+    transition: ease-in 0.5s;
+    text-shadow: 3px 3px black;
+}
+
+/*changes the color of text and background color to create interaction when hovered making 
+the picture blured using brighter color for background color*/
+.title:hover{
+    color: black;
+    background-color: rgba(241, 241, 241,0.6);
+    text-shadow: 3px 3px white;
+}
+.products-image{
+    background-image: url(images/please-take-a-seat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+/*increase the line height of three lines of story part and indent the texts 
+to make the text position better*/
+#line-spacing{
+    line-height: 30px;
+    text-indent: 30px;
+}
+
+/*change the background color and color of texts when hovered*/
+/*making the table layout fixed to ensure the spaces between each columns are consistant*/
+.social-media table {
+    transition: background-color 1s ease;
+
+    width: 100%;
+    table-layout: fixed;
+    background-color: rgb(233, 233, 233);
+}
+
+.social-media table:hover{
+    background-color: rgb(51, 108, 131);
+    color: rgb(241, 241, 241);
+}
+
+.social-media table th,
+.social-media tr td {
+    text-align: center;
+    padding-top: 7%;
+}
+
+.social-media .dropdown {
+    margin: 0;
+    display: none;
+}
+  
+.links a:hover + .dropdown, /*Uses + to select dropdown as 'links a' and dropdown on equal hierarchy*/
+.dropdown:hover {
+    display: block;
+  }
+
+.social-media ul {
+    list-style: none;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+}
+
+.social-media .links a {
+    padding: 10px;
+}
+  
+/*creates box shadow when hovered to provide interaction*/
+.social-media table img:hover{
+    transition: box-shadows 0.5s ease;
+    box-shadow: 10px 10px 10px rgb(241, 241, 241);
+    border: 2px rgb(255, 255, 255);
+    border-radius: 20px;  
+}
+
+.social-media a {
+    color: black;
+    text-decoration: none;
+}
+
+/*changes the link color when hovered*/
+.social-media a:hover{
+    color: rgb(220, 220, 220);
+}
+
+#secretlab-logo a img{
+    width:500px;
+    height: 150px;
+}
+
+#secretlab-logo {
+    padding-bottom: 2%;
+}
+
+.social-media th{
+    font-size: 40px;
+    transition:ease-in 0.5s;
+}
+
+.social-media td img{
+    text-align: center;
+}
+
+.partnership-image{
+    background-image: url(images/partnership.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.awards-image{
+    background-image: url(images/awards.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.paragraph{
+    margin-top:0px;
+    margin-bottom:2%;
+    text-align:justify;
+    font-size: 15pt;
+    max-width: 100%;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #C2C2C2 0%,#E9E8E8 50%,#FFFFFF 100%)
+}
+.paragraph a {
+    text-decoration: none;
+    color:lightskyblue ;
+}
+.paragraph a:hover{
+    text-decoration: underline;
+}
+.paragraph>h2{
+    text-decoration: underline;
+    transition: linear;
+    transition-duration: 0.5s;
+}
+.paragraph>ul{
+    padding-top: 10px;
+    padding-left: 30px;
+    list-style: square;
+    display:list-item;
+}
+.awards a{
+    text-decoration: none;
+    color: black;
+}
+.awards a:hover{
+    color: rgb(107, 92, 194)
+}
+
+.copyright{
+    float: left;
+    padding-bottom: 0px;
+    bottom: 0px;
+    width: 100%;
+    color: aliceblue;
+}
+
+span{
+    font-size: 15px;
+}
+
+.select a{
+    text-decoration: none;
+    color: deepskyblue;
+}
+.select a:hover{
+    text-decoration: underline;
+}
+.select a:visited{
+    color: deepskyblue;
+}
+
+/*hiding the images*/
+#hide{
+    display: none;
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: grey;
+    float: right;
+}
+/*display the hiding images that is placed immediately after <a> elements after hovering the link */
+.select a:hover + #hide{
+    display:block;
+    animation: boxshadow-colour 2s infinite;
+} 
+
+/*keep changing the boxshadow colour and radius in the certain time*/
+@keyframes boxshadow-colour{
+    0%{box-shadow:5px 5px 10px rgb(0, 0, 0)}
+    10%{box-shadow: 5.5px 5.5px 10px rgb(59, 59, 59)}
+    20%{box-shadow: 6px 6px 10px rgb(102, 102, 102)}
+    30%{box-shadow: 6.5px 6.5px 10px rgb(209, 209, 209)}
+    40%{box-shadow: 7px 7px 10px rgb(220, 220, 220)}
+    50%{box-shadow: 7.5px 7.5px 10px rgb(241, 241, 241)}
+    60%{box-shadow: 7px 7px 10px rgb(209, 209, 209)}
+    70%{box-shadow: 6.5px 6.5px 10px rgb(155, 155, 155)}
+    80%{box-shadow: 6px 6px 10px rgb(102, 102, 102)}
+    90%{box-shadow: 5.5px 5.5px 10px rgb(59, 59, 59)}
+    100%{box-shadow:5px 5px 10px rgb(0, 0, 0)}
+}
+
+/*showing the certain element gradually from blur to clear*/
+@keyframes fade{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
