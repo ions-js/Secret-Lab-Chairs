@@ -1,33 +1,11 @@
-@keyframes fade-in {
-    0% {
-      opacity: 0;
-      filter: blur(5px);
-    }
-    50% {
-      filter: blur(3px);
-    }
-    75% {
-      filter: blur(1px);
-    }
-    to {
-      opacity: 1;
-      filter: blur(0px);
-
-    }
-  }
-
-main {
-    animation: fade-in 2s;
-}
-  
 .image-container{
     width: 100%;
     height: auto;
+    animation: fade 2s;
 }
 
-.image-container img {
+.image-container img{
     width: 100%;
-    animation: fade-in 2s;
 }
 
 .introduction table{
@@ -36,7 +14,7 @@ main {
     width : 100%
 }
 
-.introduction-pic > img{
+.introduction-pic>img{
     border: 2px solid black;
     margin-top: auto;
     margin-bottom: auto;
@@ -56,29 +34,30 @@ main {
 }
 
 .story-image{
-    background-image: url(images/awards-splash-mobile-min.png);
+    background-image: url(../AboutUs/awards-splash-mobile-min.png);
     background-repeat:no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
-.products{
-    margin-top: 0px;
-}
 .product-table table{
     table-layout: fixed;
     width : 100%;
-    margin-bottom: 2%;
+    margin-bottom: 0px;
 }
 
 .product-table table:hover{
-    background-color: rgb(207, 205, 205);
+    background:linear-gradient(to bottom,#000000,#434343);
+    color: rgb(255, 255, 255);
+}
+
+.product-table table:hover td a{
     color: rgb(255, 255, 255);
 }
 
 .product-table tr th ,.product-table tr td{
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .product-table th{
@@ -98,12 +77,11 @@ main {
 }
 
 .product-table td a:hover{
-    color: rgb(21, 111, 146);
     text-decoration: underline;
 }
 /*makes the img bigger when hovered to create interaction*/
 .product-table tr td img:hover{
-    height:360px;
+    height:350px;
 }
 
 #productbutton{
@@ -111,17 +89,18 @@ main {
     padding-bottom: 30px;
 }
 
-#productbutton a {
-    padding:10px;
-    background-color: rgb(201, 201, 201);
+#productbutton a{
+    padding: 10px;
+    background: linear-gradient(to right,#8e9eab,#eef2f3);
     color: black;
+    border-radius: 200px;
 }
 /*makes the productbutton changes its color and create shadow when hovered to create interaction*/
-#productbutton a:hover {
+#productbutton a:hover{
     padding:15px;
     color: rgb(21, 111, 146);
     background-color: ghostwhite;
-    box-shadow:5px 5px 5px whitesmoke;
+    box-shadow:5px 5px 10px whitesmoke;
 }
 
 /*align the title text at center and increase opacity of image using rgba in the div */
@@ -147,74 +126,39 @@ the picture blured using brighter color for background color*/
     text-shadow: 3px 3px white;
 }
 .products-image{
-    background-image: url(images/please-take-a-seat.jpg);
+    background-image: url(../AboutUs/please-take-a-seat.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
 
-/*increase the line height of three lines of story part and indent the texts 
-to make the text position better*/
-#line-spacing{
-    line-height: 30px;
-    text-indent: 30px;
-}
 
 /*change the background color and color of texts when hovered*/
-/*making the table layout fixed to ensure the spaces between each columns are consistant*/
-.social-media table {
-    transition: background-color 1s ease;
+.social-media table:hover{
+    background:linear-gradient(to bottom,#4CA1AF,#C4E0E5);
+    color: rgb(241, 241, 241);
+}
 
+/*making the table layout fixed to ensure the spaces between each columns are consistant*/
+.social-media table{
     width: 100%;
     table-layout: fixed;
     background-color: rgb(233, 233, 233);
 }
 
-.social-media table:hover{
-    background-color: rgb(51, 108, 131);
-    color: rgb(241, 241, 241);
+.social-media table th,.social-media tr td{
+    text-align:center;
+    padding-top: 2%;
 }
 
-.social-media table th,
-.social-media tr td {
-    text-align: center;
-    padding-top: 7%;
-}
-
-.social-media .dropdown {
-    margin: 0;
-    display: none;
-}
-  
-.links a:hover + .dropdown, /*Uses + to select dropdown as 'links a' and dropdown on equal hierarchy*/
-.dropdown:hover {
-    display: block;
-  }
-
-.social-media ul {
-    list-style: none;
-    position: absolute;
-    margin-top: 160px;
-    margin-left: 150px;
-    display: flex;
-    justify-content: space-between;
-    width: 1060px;
-}
-
-.social-media .links a {
-    padding: 10px;
-}
-  
 /*creates box shadow when hovered to provide interaction*/
 .social-media table img:hover{
-    transition: box-shadows 0.5s ease;
-    box-shadow: 10px 10px 10px rgb(241, 241, 241);
-    border: 2px rgb(255, 255, 255);
-    border-radius: 20px;  
+    width: 52px;
+    height: 52px;
 }
 
-.social-media a {
+.social-media a{
     color: black;
     text-decoration: none;
 }
@@ -223,14 +167,17 @@ to make the text position better*/
 .social-media a:hover{
     color: rgb(220, 220, 220);
 }
-
+#secretlab-logo td{
+    padding-bottom: 2%;
+}
 #secretlab-logo a img{
-    width:500px;
-    height: 150px;
+    width:400px;
+    height: 125px;
 }
 
-#secretlab-logo {
-    padding-bottom: 2%;
+#secretlab-logo a img:hover{
+    width:450px;
+    height: 150px;
 }
 
 .social-media th{
@@ -243,7 +190,7 @@ to make the text position better*/
 }
 
 .partnership-image{
-    background-image: url(images/partnership.jpeg);
+    background-image: url(../AboutUs/partnership.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -252,7 +199,7 @@ to make the text position better*/
 }
 
 .awards-image{
-    background-image: url(images/awards.jpg);
+    background-image: url(../AboutUs/awards.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -333,10 +280,9 @@ span{
     display:block;
     animation: boxshadow-colour 2s infinite;
 } 
-
 /*keep changing the boxshadow colour and radius in the certain time*/
 @keyframes boxshadow-colour{
-    0%{box-shadow:5px 5px 10px rgb(0, 0, 0)}
+    0%{box-shadow: 5px 5px 10px rgb(59, 59, 59)}
     10%{box-shadow: 5.5px 5.5px 10px rgb(59, 59, 59)}
     20%{box-shadow: 6px 6px 10px rgb(102, 102, 102)}
     30%{box-shadow: 6.5px 6.5px 10px rgb(209, 209, 209)}
@@ -353,4 +299,51 @@ span{
 @keyframes fade{
     from{opacity: 0;}
     to{opacity: 1;}
+}
+
+@keyframes boxcolor{
+    from{ background: linear-gradient(to bottom right,#ddd6f3,#faaca8 );}
+    to{ background: linear-gradient(to bottom right,#faaca8,#ddd6f3 );}
+}
+
+.box{
+    height: 475px;
+    width: 600px;
+    margin: 40px 20px 40px 20px;
+    background: linear-gradient(to bottom right,#ddd6f3,#faaca8);
+    padding: 40px;
+    
+    line-height: 40px;
+    text-indent: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-shadow: 2px black;
+    font-weight: bold;
+
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #FFFFFF;
+}
+
+.box:hover{
+    animation: boxcolor 1s infinite;
+    box-shadow: 5px 5px 20px #FFFFFF;
+}
+
+.flex-container{
+    display: flex;
+    background-image: url(../AboutUs/snene.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 170vh;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.column{
+    display: flex;
+    flex-flow: column wrap;
 }
