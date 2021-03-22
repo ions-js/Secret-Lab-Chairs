@@ -1,0 +1,242 @@
+@keyframes fade-in {
+  from { opacity: 0;}
+  to { opacity: 1; }
+}
+
+@keyframes shift-in-left {
+  from {
+      position: relative;
+      right: 800px;
+  }
+  to {
+      position: relative;
+      right: 100px;
+  }
+}
+
+main {
+  padding: 30px;
+}
+
+#product_title {
+  padding-left: 35%;
+  padding-top: 150px;
+  margin-bottom: 20px;
+  font-size: 4em;
+  display: block;
+}
+
+#product_title,
+.review-title,
+.special-edition {
+  animation: fade-in 7s ease; /*title fade-in*/
+}
+
+.chair {
+  animation: 
+    fade-in 7s ease, 
+    shift-in-left 3s ease forwards; /*animation fill mode (forwards) retain final animation state*/
+}
+
+.titanxlchair {
+  animation: none; /*prevent titan xl chair layout go off*/
+}
+
+#omegaseries {
+  top: 0px;
+  margin-left: 200px; 
+  width:  855px;
+  padding: 40px;
+  font-size: 2em;
+  display: block;
+}
+
+#titanseries {
+  top: 0px;
+  margin-left: 200px; 
+  width:  855px;
+  padding: 40px;
+  font-size: 2em;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 300px;
+  transition: 0.5s opacity ease;
+  opacity: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.chair img:hover + .overlay {
+  opacity: 1;
+}
+
+.image {
+  border: 5px solid #555;
+  display: block;
+  width: 300px;
+  height: 460px;
+}
+
+.omegachair {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image1 {
+  margin-left: 350%;
+  margin-top: 0px;
+}
+
+.overlay1 {
+  bottom: 5px;
+  margin-left: 350%;
+}
+
+.omegachair-title,
+.titanchair-title,
+.titanxlchair-title {
+  top: 0px;
+  left: 200px; 
+  font-size: 3em;
+  border: 5px solid #555;
+  position: absolute;
+  width:  855px;
+  padding: 20px;
+  font-style: italic;
+  line-height: 1;
+  height: 100px;
+  text-align: center;
+}
+
+.omegachair-content,
+.titanxlchair-content,
+.titanchair-content {
+  top: 95px;
+  left: 200px; 
+  height: 365px;
+  background-color: rgb(211, 211, 211);
+  border: 5px solid #555;
+  position: absolute;
+  width:  855px;
+  padding: 20px;
+  font-style: italic;
+  font-size: larger;
+  line-height: 1;
+
+}
+
+.titanchair {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image2 {
+  margin-left: 350%;
+  margin-top: 0px;
+}
+  
+.overlay2 {
+  position: relative;
+  bottom: 65px;
+  margin-left: 350%;
+}
+  
+.titanchair-title {
+  top: 0px;
+  left: 200px; 
+}
+  
+.titanchair-content {
+  top: 95px;
+  left: 200px; 
+  height: 365px;
+}
+
+.image23 {
+  margin-left: 350%;
+  margin-top: -65px;
+}
+
+.overlay23 {
+  position: relative;
+  bottom: 65px;
+  margin-left: 350%;
+}
+
+.titanxlchair-title {
+  top: 460px;
+  left: 200px; 
+}
+
+.titanxlchair-content {
+  top: 555px;
+  left: 200px; 
+  height: 360px;
+}
+
+.review-title,
+.special-edition {
+  margin-top: 50px;
+  margin-left: 600px;
+  font-size: 3em;
+  font-weight: bold;
+  width: 200%;
+}
+
+.image3 {
+  margin-left: 65%;
+  margin-top: 0px;
+}
+
+.overlay3 {
+  margin-left: 195px;
+  margin-top: -65px;
+}
+/*margin for images and overlay in column 1*/
+.image-col1 {
+  margin-left: 195px;
+  margin-top: 0px;
+}
+
+.overlay-col1 {
+  margin-left: 195px;
+  margin-top: -65px;
+}
+/*margin for images and overlay in column 2*/
+.image-col2 {
+  margin-left: 495px;
+  margin-top: -460px;
+}
+
+.overlay-col2{
+  margin-left: 495px;
+  margin-top: -65px;
+}
+/*margin for images and overlay in column 3*/
+.image-col3 {
+  margin-left: 795px;
+  margin-top: -460px;
+}
+
+.overlay-col3 {
+  margin-left: 795px;
+  margin-top: -65px;
+}
+/*margin for images and overlay in column 4*/
+.image-col4 {
+  margin-left: 1095px;
+  margin-top: -460px;
+}
+
+.overlay-col4 {
+  margin-left: 1095px;
+  margin-top: -65px;
+}
