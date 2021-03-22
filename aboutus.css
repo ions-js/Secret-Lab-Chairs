@@ -69,7 +69,7 @@ main {
     margin-bottom: 0;
 }
 
-.product-table table:hover {
+.product-table table:hover{
     background: linear-gradient(to bottom, #000000, #434343);
     color: rgb(255, 255, 255);   
 }
@@ -78,18 +78,18 @@ main {
     color: rgb(255, 255, 255);
 }
 
-.product-table tr th ,.product-table tr td {
+.product-table tr th ,.product-table tr td{
     text-align: center;
     padding-top: 50px;
 }
 
-.product-table th {
+.product-table th{
     font-size: 80px;
     transition: ease-in;
     transition-duration: 0.5s;
 }
 
-.product-table tr td img {
+.product-table tr td img{
     height:300px;
     animation: boxshadow-colour 2s infinite;
     border: 2px solid grey;
@@ -99,15 +99,15 @@ main {
     text-decoration: none;
 }
 
-.product-table td a:hover {
+.product-table td a:hover{
     text-decoration: underline;
 }
 /*makes the img bigger when hovered to create interaction*/
-.product-table tr td img:hover {
+.product-table tr td img:hover{
     height: 350px;
 }
 
-#productbutton {
+#productbutton{
     padding-top: 20px;
     padding-bottom: 30px;
 }
@@ -274,29 +274,29 @@ the picture blured using brighter color for background color*/
     text-decoration: none;
     color:lightskyblue ;
 }
-.paragraph a:hover {
+.paragraph a:hover{
     text-decoration: underline;
 }
-.paragraph>h2 {
+.paragraph>h2{
     text-decoration: underline;
     transition: linear;
     transition-duration: 0.5s;
 }
-.paragraph > ul { /*selects descendant ul, in class paragraph*/
+.paragraph>ul{
     padding-top: 10px;
     padding-left: 30px;
     list-style: square;
     display:list-item;
 }
-.awards a {
+.awards a{
     text-decoration: none;
     color: black;
 }
-.awards a:hover {
+.awards a:hover{
     color: rgb(107, 92, 194)
 }
 
-.copyright {
+.copyright{
     float: left;
     padding-bottom: 0px;
     bottom: 0px;
@@ -304,23 +304,23 @@ the picture blured using brighter color for background color*/
     color: aliceblue;
 }
 
-span {
+span{
     font-size: 15px;
 }
 
-.select a {
+.select a{
     text-decoration: none;
     color: deepskyblue;
 }
-.select a:hover {
+.select a:hover{
     text-decoration: underline;
 }
-.select a:visited {
+.select a:visited{
     color: deepskyblue;
 }
 
 /*hiding the images*/
-#hide {
+#hide{
     display: none;
     max-height: 300px;
     max-width: 300px;
@@ -330,7 +330,7 @@ span {
     float: right;
 }
 /*display the hiding images that is placed immediately after <a> elements after hovering the link */
-.select a:hover + #hide {
+.select a:hover + #hide{
     display:block;
     animation: boxshadow-colour 2s infinite;
 } 
@@ -373,12 +373,12 @@ span {
     box-shadow: 5px 5px 10px #FFFFFF;
 }
 
-.box:hover {
+.box:hover{
     animation: boxcolor 1s infinite;
     box-shadow: 5px 5px 20px #FFFFFF;
 }
 
-.flex-container {
+.flex-container{
     display: flex;
     background-image: url(images/snene.jpg);
     background-repeat: no-repeat;
@@ -392,7 +392,11 @@ span {
     flex-flow: row wrap;
 }
 
-.column {
+.column{
     display: flex;
     flex-flow: column wrap;
+}
+
+#line-height{
+    line-height: 30px;
 }
