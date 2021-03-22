@@ -1,0 +1,81 @@
+@keyframes gradient-color {
+    0% {background-color: #ffffff;}
+    40% {background-color: #355C7D;}
+    70% {background-color: #6C5B7B;}
+    100% {background-color: #8f5263;}
+}
+
+@keyframes fade-in {
+    from { opacity: 0;}
+    to { opacity: 1; }
+  }
+
+@keyframes shift-in-left {
+    from {
+        position: relative;
+        right: 800px;
+    }
+    to {
+        position: relative;
+        right: 0px;
+    }
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 204px 190px 70px; /*top: 204, sides: 190, bottom 70*/
+    animation: fade-in 7s ease;
+}
+
+.review-cards {
+    display: flex;
+    padding: 80px;
+    width: 100%;
+    flex-direction: column;
+    animation: gradient-color 7s ease 2s infinite alternate; /*animation gradient color, of 7s duration, ease, and delay 2s before starting. Plays infinitely back and fourth*/     
+}
+
+.row-1, .row-2, .row-3, .row-4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards {
+    display: flex; /*flexbox automatically adjust box width, based on contents*/
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    height: 250px;
+    padding: 25px;
+    margin: 5px;
+    transition: background-color 1s ease;
+    animation: 
+        fade-in 7s ease, 
+        shift-in-left 3s ease;    
+}
+
+.cards:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.star-ratings { /*arranges stars in a horizontal direction, and provides spacings between them*/
+	display: flex;
+    flex-direction: row;
+    width: 220px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.name {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
