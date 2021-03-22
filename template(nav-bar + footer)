@@ -1,101 +1,163 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Secret Lab Chairs</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-    <link href="https://simplybook.asia/uploads/secretlab/image_files/preview/82893bd161c5e11c90637caa1a337967.jpg" rel="shortcut icon" type="image/img"/>
-  </head>
-  <body>
-    <header class="navbar-container">
-      <a href="Homepage.html"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Transparent_SecretLab_Logo%28black_font%29%28padded%29.png" width="200px" alt="logo"></a>
-      <nav class="links-container">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Secret Lab Chairs</title>
+  <link href="contactus.css" rel="stylesheet" type="text/css"/>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link href="images/secret-lab-icon.jpg" rel="icon" type="image/img"/>
+</head>
+<body>
+  <nav class="navbar-container">
+    <a href="Homepage.html"><img id="navbar-logo" src="images/Transparent_SecretLab_Logo(black_font)(padded).png" width="200px" alt="logo"></a>
+    <div class="links-container">
+      <ul>
+        <li class="links">
+          <a href="Product.html">Products</a>
+          <ul class="dropdown">
+            <li class="option"><a href ="Product.html#titan">Titan Series</a></li>
+            <li class="option"><a href="Product.html#omega">Omega Series</a></li>
+            <li class="option"><a href="Product.html#titanxl">Titan XL</a></li>
+            <li class="option"><a href="Product.html#specialedition">Special Edition</a></li>
+          </ul>
+        </li>
+  
+        <li class="links">
+          <a href="Review.html">Review</a>
+          <ul class ="dropdown">
+            <li class="option"><a href="AboutUs.html#awards">Awards</a></li>
+            <li class="option"><a href="Review.html">Reviews</a></li>
+          </ul>
+        </li>
+  
+        <li class="links">
+          <a href="AboutUs.html">About Us</a>
+          <ul class="dropdown">
+            <li class="option"><a href="AboutUs.html#story">Story</a></li>
+            <li class="option"><a href="AboutUs.html#products">Products</a></li>
+            <li class="option"><a href="AboutUs.html#partner">Partnership</a></li>
+            <li class="option"><a href="AboutUs.html#awards">Awards</a></li>
+            </ul>
+        </li>
+  
+        <li class="links">
+          <a href="ContactUs.html">Contact Us</a>
+          <ul class="dropdown">
+            <li class="option"><a href="ContactUs.html">FAQ</a></li>
+            <li class="option"><a href="ContactUs.html">Address</a></li>
+            <li class="option"><a href="https://my.secretlab.co/" target="_blank">Official Website</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+  
+  <!--contents-->
+  
+  </main>
+  <footer class="footer-container">
+    <div class="footer-links">
+      <table>
+        <thead>
+        <tr>
+          <th>Products</th>
+          <th>Review</th>
+          <th>About Us</th>
+          <th>Contact Us</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+          <td> <a href="Product.html#titan" target="_blank">Titan Series</a></td>
+          <td><a href="AboutUs.html#awards" target="_blank">Awards</a> </td>
+          <td><a href="AboutUs.html#story" target="_blank">Story</a></td>
+          <td><a href="ContactUs.html" target="_blank">FAQ</a></td>
+          </tr>
+          <tr>
+              <td><a href="Product.html#omega" target="_blank">Omega Series</a></td>
+              <td><a href="Review.html" target="_blank">Reviews</a> </td>
+              <td><a href="AboutUs.html#products" target="_blank">Products</a></td>
+              <td><a href="ContactUs.html" target="_blank">Address</a></td>
+          </tr>
+          <tr>
+              <td><a href="Product.html#titanxl" target="_blank">Titan XL</a></td>
+              <td></td>
+              <td><a href="AboutUs.html#partner" target="_blank">Partnership</a></td>
+              <td><a href="https://my.secretlab.co/" target="_blank">Official Website</a></td>
+          </tr>
+          <tr>
+              <td><a href="Product.html#specialedition" target="_blank">Special Edition</a></td>
+              <td></td>
+              <td><a href="AboutUs.html#awards" target="_blank">Awards</a></td>
+              <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tr>
+          <td>      
+            <small id="copyright-info">Copyright &copy; 2021 Secret Lab. All rights reserved</small>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <small id="last-update-info">Last updated: 22 March 2021</small>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="footer-images">
+      <a href="Homepage.html" target="_blank"><img id="footer-logo" src="images/secret-lab-logo.png" width="200px" alt="logo"></a>
+      <div class="icons-container">
         <ul>
-          <li><a href="Products.html">Products</a>
-            <ul class="hidden">
-              <li><a href ="Titan-Series.html">Titan Series</a></li>
-              <li><a href="Omega-Series.html">Omega Series</a></li>
+          <li class="links">
+            <a href="https://twitter.com/secretlabchairs?lang=en" target="_blank"><img width="25" src="images/twitter.png" alt="twitter-icon"/></a>
+            <ul class="dropdown">
+              <li class="option"> 
+                <a href="https://iconscout.com/icons/twitter" target="_blank">Twitter Icon</a>
+                <a href="https://iconscout.com/contributors/unicons" target="_blank">by Unicons Font</a>
+                <a href="https://iconscout.com" target="_blank">on Iconscout</a>
+              </li>
             </ul>
           </li>
-
-          <li><a href="Review.html">Review</a>
-            <ul class ="hidden">
-              <li><a href="Awards.html" target="_blank">Awards</a></li>
-              <li><a href="Reviews.html" target="_blank">Reviews</a></li>
+  
+          <li class="links">
+            <a href="https://www.facebook.com/Secretlab/" target="_blank"><img width="25" src="images/facebook.png" alt="facebook-icon"/></a>
+            <ul class="dropdown">
+              <li class="option">
+                <a href="https://iconscout.com/icons/facebook" target="_blank">Facebook Logo Icon</a>
+                <a href="https://iconscout.com/contributors/roundicons-com" target="_blank">by Roundicons .com</a>  
+                <a href="https://iconscout.com" target="_blank">on Iconscout</a></li>
+              </li>    
             </ul>
           </li>
-
-          <li><a href="About Us.html">About Us</a>
-            <ul class="hidden">
-              <li><a href="https://twitter.com/secretlabchairs?lang=en" target="_blank">Twitter</a></li>
-              <li><a href="https://www.facebook.com/Secretlab/" target="_blank">Facebook</a></li>
-              <li><a href="https://www.instagram.com/secretlab/" target="_blank">Instagram</a></li>
-              <li><a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ" target="_blank">Youtube</a></li>
-              </ul>
+  
+          <li class="links">
+            <a href="https://www.instagram.com/secretlab/" target="_blank"><img width="25" src="images/instagram.png" alt="instagram-icon"></a>
+            <ul class="dropdown">
+              <li class="option">
+                <a href="https://iconscout.com/icons/instagram" target="_blank">Instagram Icon</a>
+                <a href="https://iconscout.com/contributors/unicons" target="_blank">by Unicons Font</a>
+                <a href="https://iconscout.com" target="_blank">on Iconscout</a></li>
+              </li>
+            </ul>
           </li>
-
-          <li><a href="ContactUs.html">Contact Us</a>
-            <ul class="hidden">
-              <li><a href="FAQ.html" target="_blank">FAQ</a></li>
-              <li><a href="Address.html" target="_blank">Address</a></li>
-              <li><a href="https://my.secretlab.co/" target="_blank">Official Website</a></li>
+  
+          <li class="links">
+            <a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ" target="_blank"><img width="25" src="images/youtube.png" alt="youtube-icon"/></a>
+            <ul class="dropdown">
+              <li class="option">
+                <a href="https://iconscout.com/icons/youtube" target="_blank">Youtube Icon by</a>
+                <a href="https://iconscout.com/contributors/unicons" target="_blank">Unicons Font</a>
+                <a href="https://iconscout.com" target="_blank">on Iconscout</a></li>
             </ul>
           </li>
         </ul>
-      </nav>
-    </header>
-    <div class="some-contents" style="height:500px;">
-
-
-
-
-
-
+      </div> 
+      <p id="email">Email us at <a href="mailto:secretlabchairs@gmail.com">secretlabchairs@gmail.com</a></p> 
     </div>
-    <footer class="footer-container">
-      <div class="footer-links">
-        <nav class="product">
-          <p>Product</p>
-          <a href="" target="_blank">Titan Series</a>   
-          <a href="" target="_blank">Omega Series</a>
-        </nav>
-
-        <nav class="reviews">
-          <p>Reviews</p>
-          <a href="" target="_blank">Awards</a> 
-          <a href="" target="_blank">Reviews</a> 
-        </nav>
-
-        <nav class="aboutus">
-          <p>About Us</p>
-          <a href="https://twitter.com/secretlabchairs?lang=en" target="_blank">Twitter</a>
-          <a href="https://www.facebook.com/Secretlab/" target="_blank">Facebook</a>
-          <a href="https://www.instagram.com/secretlab/" target="_blank">Instagram</a>
-          <a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ" target="_blank">Youtube</a>
-          </nav>
-
-        <nav class="contactus">
-          <p>Contact Us</p>
-          <a href="" target="_blank">FAQ</a>  
-          <a href="" target="_blank">Address</a>
-          <a href="" target="_blank">Official Website</a>
-        </nav> 
-
-        <nav class="nav-img-container">
-          <a href="https://twitter.com/secretlabchairs?lang=en" target="_blank">
-          <svg viewBox="0 0 32 32" role="img" aria-label="Navigate to Twitter" focusable="false" style="height:18px;width:18px;display:block;fill:currentColor"><path d="m31 6.36c-1.16.49-2.32.82-3.55.95 1.29-.76 2.22-1.87 2.72-3.38a13.05 13.05 0 0 1 -3.91 1.51c-1.23-1.28-2.75-1.94-4.51-1.94-3.41 0-6.17 2.73-6.17 6.12 0 .49.07.95.17 1.38-4.94-.23-9.51-2.6-12.66-6.38-.56.95-.86 1.97-.86 3.09 0 2.07 1.03 3.91 2.75 5.06-1-.03-1.92-.3-2.82-.76v.07c0 2.89 2.12 5.42 4.94 5.98-.63.17-1.16.23-1.62.23-.3 0-.7-.03-1.13-.13a6.07 6.07 0 0 0 5.74 4.24c-2.22 1.74-4.78 2.63-7.66 2.63-.56 0-1.06-.03-1.43-.1 2.85 1.84 6 2.76 9.41 2.76 7.29 0 12.83-4.01 15.51-9.3 1.36-2.66 2.02-5.36 2.02-8.09v-.46c-.03-.17-.03-.3-.03-.33a12.66 12.66 0 0 0 3.09-3.16" fill-rule="evenodd"></path></svg></a>
-
-          <a href="https://www.facebook.com/Secretlab/" target="_blank">
-          <svg viewBox="0 0 32 32" role="img" aria-label="Navigate to Facebook" focusable="false" 
-          style="height:18px;width:18px;display:block;fill:currentColor"><path d="m8 14.41v-4.17c0-.42.35-.81.77-.81h2.52v-2.08c0-4.84 2.48-7.31 7.42-7.35 1.65 0 3.22.21 4.69.64.46.14.63.42.6.88l-.56 4.06c-.04.18-.14.35-.32.53-.21.11-.42.18-.63.14-.88-.25-1.78-.35-2.8-.35-1.4 0-1.61.28-1.61 1.73v1.8h4.52c.42 0 .81.42.81.88l-.35 4.17c0 .42-.35.71-.77.71h-4.21v16c0 .42-.35.81-.77.81h-5.21c-.42 0-.8-.39-.8-.81v-16h-2.52a.78.78 0 0 1 -.78-.78" fill-rule="evenodd"></path></svg></a>
-          
-          <a href="https://www.instagram.com/secretlab/" target="_blank">
-          <svg viewBox="0 0 24 24" role="img" aria-label="Navigate to Instagram" focusable="false" style="height:18px;width:18px;display:block;fill:currentColor"><path d="m23.09.91c-.61-.61-1.33-.91-2.17-.91h-17.84c-.85 0-1.57.3-2.17.91s-.91 1.33-.91 2.17v17.84c0 .85.3 1.57.91 2.17s1.33.91 2.17.91h17.84c.85 0 1.57-.3 2.17-.91s.91-1.33.91-2.17v-17.84c0-.85-.3-1.57-.91-2.17zm-14.48 7.74c.94-.91 2.08-1.37 3.4-1.37 1.33 0 2.47.46 3.41 1.37s1.41 2.01 1.41 3.3-.47 2.39-1.41 3.3-2.08 1.37-3.41 1.37c-1.32 0-2.46-.46-3.4-1.37s-1.41-2.01-1.41-3.3.47-2.39 1.41-3.3zm12.66 11.63c0 .27-.09.5-.28.68a.92.92 0 0 1 -.67.28h-16.7a.93.93 0 0 1 -.68-.28.92.92 0 0 1 -.27-.68v-10.13h2.2a6.74 6.74 0 0 0 -.31 2.05c0 2 .73 3.71 2.19 5.12s3.21 2.12 5.27 2.12a7.5 7.5 0 0 0 3.75-.97 7.29 7.29 0 0 0 2.72-2.63 6.93 6.93 0 0 0 1-3.63c0-.71-.11-1.39-.31-2.05h2.11v10.12zm0-13.95c0 .3-.11.56-.31.77a1.05 1.05 0 0 1 -.77.31h-2.72c-.3 0-.56-.11-.77-.31a1.05 1.05 0 0 1 -.31-.77v-2.58c0-.29.11-.54.31-.76s.47-.32.77-.32h2.72c.3 0 .56.11.77.32s.31.47.31.76z" fill-rule="evenodd"></path></svg></a>
-      
-          <a href="https://www.youtube.com/channel/UCRj9dHSuqCYis-03hsRYYXQ" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" aria-label="Navigate to YouTube" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="21px" height="21px" viewBox="0 0 96.875 96.875" style="enable-background:new 0 0 96.875 96.875;" xml:space="preserve"><g><path d="M95.201,25.538c-1.186-5.152-5.4-8.953-10.473-9.52c-12.013-1.341-24.172-1.348-36.275-1.341   c-12.105-0.007-24.266,0-36.279,1.341c-5.07,0.567-9.281,4.368-10.467,9.52C0.019,32.875,0,40.884,0,48.438   C0,55.992,0,64,1.688,71.336c1.184,5.151,5.396,8.952,10.469,9.52c12.012,1.342,24.172,1.349,36.277,1.342   c12.107,0.007,24.264,0,36.275-1.342c5.07-0.567,9.285-4.368,10.471-9.52c1.689-7.337,1.695-15.345,1.695-22.898   C96.875,40.884,96.889,32.875,95.201,25.538z M35.936,63.474c0-10.716,0-21.32,0-32.037c10.267,5.357,20.466,10.678,30.798,16.068   C56.434,52.847,46.23,58.136,35.936,63.474z"/></g></svg></a>
-        </nav>
-      </div>
-    </footer>
-  </body>
+  </footer>  
+</body>
+</html>
