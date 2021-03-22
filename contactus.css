@@ -1,0 +1,206 @@
+@keyframes fade-in {
+    from { opacity: 0;}
+    to { opacity: 1; }
+  }
+
+@keyframes shift-in-left {
+    from {
+        position: relative;
+        right: 800px;
+    }
+    to {
+        position: relative;
+        right: 0px;
+    }
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 80px;
+}
+
+#contact-page-heading {
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 180px 190px 70px;
+    animation: fade-in 7s ease;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+}
+
+.forms-container {
+    width: 500px;
+    height: 450px;
+    margin-left: 190px;
+    animation:
+        fade-in 5s ease, 
+        shift-in-left 1.5s ease;    
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column; /*arranges form components in a vertical direction*/
+    padding: 20px;
+    border-radius: 5px;
+    transition: box-shadow 3.5s ease;
+    box-shadow: 1px 1px 10px 1px grey;
+}
+
+.form-row {
+    display: flex;
+}
+
+label {
+    flex: 1.2; /*speicfies width ratio to input, in relation to form-row width*/
+}
+
+input {
+    flex: 2;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+label, input {
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.message-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-box textarea {
+    margin-left: 12px;
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+    border: 1px solid grey;
+}
+
+.input {
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    transition: 
+        border 0.2s,
+        box-shadow 0.2s;
+}
+
+.input:focus { /*styles for input, when it's being focused on (clicked)*/
+    outline: none;
+    border: 2px solid rgb(144, 192, 255);
+    box-shadow: 
+         2px 2px 10px rgb(144, 192, 255),
+         -2px -2px 10px rgb(144, 192, 255);
+}
+
+.input::placeholder, button { /*styles for placeholer texts and button*/
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    margin: 10px 0 0 12px;
+    width: 100px;
+    height: 30px;
+    background-color: #008CBA;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid #008CBA;
+    outline: none; /*removes black border (outline) when button is activated (on click)*/
+    transition: box-shadow 0.3s;
+}
+
+button:hover {
+    box-shadow: 
+         2px 2px 7px rgb(144, 192, 255),
+         -2px -2px 7px rgb(144, 192, 255);
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 19px;
+    background-color: rgb(216, 192, 85);
+    border: 20px solid rgb(129, 115, 51);
+}
+
+#newsletter-form-heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+#newsletter-points {
+    margin: 20px;
+    font-weight: bold;
+}
+
+.newsletter-form .form-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.newsletter-form label {
+    flex: 0;
+}
+
+.newsletter-form input {
+    flex: 4;
+}
+
+.newsletter-form button {
+    flex: 1;
+    margin-top: 0;
+    margin-right: 5px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    margin-left: 150px;
+    justify-content: space-between;
+    animation:
+        fade-in 5s ease, 
+        shift-in-left 1.5s ease;    
+}
+
+#connect-with-us {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.address-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#email-us, #phone, #address {
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(98, 114, 146);
+    transition: background-color 0.3s;
+}
+
+#email-us:hover, #phone:hover, #address:hover {
+    background-color: rgb(151, 109, 54, 0.3);
+}
+
+.map iframe {
+    overflow: hidden;
+    background: none;
+    height: 400px;
+    width: 450px;
+}
