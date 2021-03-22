@@ -63,10 +63,10 @@
             <img src="images/Transparent_SecretLab_Logo(black_font)(padded).png"
             alt="logo">
           </td>
-          <td id="textshadow"><b>Secretlab</b> was founded in 2014 by two former competitive gamers Ian Alexander Ang and Alaric Choo.</td>
+          <td id="textshadow"><b>Secretlab</b> was founded by two former competitive gamers Ian Alexander Ang and Alaric Choo in 2014.</td>
         </tr>
         <tr>
-          <td id="textshadow">The company officially launched in Singapore in May 2015 and later in the same year launched in Malaysia and Australia followed by the United States in 2016.</td>
+          <td id="textshadow">The company officially launched in Singapore, Malaysia and Australia in May 2015 and followed by the United States in 2016.</td>
         </tr>
       </table>
     </div>
@@ -82,12 +82,12 @@
         <div class="row">
           <div class="box">
             <p>
-              Secretlab was founded in 2014 by two former competitive gamers Ian Alexander Ang and Alaric Choo, who set out to create and market computer chairs targeted at computer gamers, having grown disgruntled at the lack of affordable and quality options in the gaming chair market. They got the idea to start the company after they could not find a chair that could be used for long hours and fit both gaming and office setups.
+              Secretlab was founded in 2014 by Ian Alexander Ang and Alaric Choo . They got the idea to start the company after they could not find a chair that could be used for long hours and fit both gaming and office setups.
             </p>
           </div>
           <div class="box">
             <p>  
-              Secretlab founders use a direct-to-consumer distribution model to keep prices down.In September 2020, The company was ranked third on Singapore’s top 10 startups by LinkedIn, and CEO Ian Alexander Ang was named EY Entrepreneur Of The Year for Consumer Products, the youngest in the history of the award 
+              Secretlab founders use a direct-to-consumer distribution model to keep prices down. In September 2020, The company was ranked third on Singapore’s top 10 startups by LinkedIn, and CEO Ian Alexander Ang was named EY Entrepreneur Of The Year for Consumer Products, the youngest in the history of the award 
             </p>
           </div>
         </div>
@@ -116,9 +116,9 @@
     <div class="paragraph">
       <p>Secretlab's products are generally targeted at gamers, although the company has also attracted customers from law firms, clinics and corporate offices.</p>
       <br>
-      <p>The company has released four models, the <strong>Secretlab THRONE</strong> ,<strong>Secretlab TITAN XL</strong>, <strong>Secretlab Titan</strong> , and <strong>Secretlab OMEGA</strong> .The models were revised in May 2019, after three years of research and development, and are sold as the Secretlab 2020 Series.</p>
+      <p>The company has released four models, the <strong>Secretlab THRONE</strong> ,<strong>Secretlab TITAN XL</strong>, <strong>Secretlab Titan</strong> , and <strong>Secretlab OMEGA</strong> .The models were revised and sold as the SecretLab 2020 Series in May 2019 after three years of research and development.</p>
       <br>
-      <p>The chair's cushion are made with high density cold-cure foam with metal substructure.The chairs are sold with various upholstery options, including leather, fabric, and leatherette.</p>
+      <p>The chair's cushion are made with high density cold-cure foam with metal substructure and sold with various upholstery options, including leather, fabric, and leatherette.</p>
     </div>
     <div class="product-table" id="products">
       <table>
@@ -183,29 +183,39 @@
     </div>
     <div class="paragraph">
       <h2>International e-sports teams</h2>
-      <ul class="select">
-        <li>The company has also partnered with international e-sports teams <a href="https://esportsinsider.com/2020/04/team-liquid-secretlab-partnership/">Team Liquid</a><img src="images/teamliquid-chair.jpg" alt="team-liquid-chair" id="hide">, <a href="https://ogs.gg/secretlab-dreamog-edition-gaming-seat/">Team OG</a><img src="images/og-chair.jpg" alt="OG" id="hide">, <a href="https://hardcoregamer.com/2020/01/09/secretlab-chairs-announces-g2-esports-collaboration/364886/">G2 Esports</a><img src="images/G2.jpg" alt="G2" id="hide">, <a href="https://esports-marketing-blog.com/cloud9-and-secretlab-launch-partnership-special-edition-chair/">Cloud9</a><img src="images/Cloud9.jpg" alt="Cloud9" id="hide"> ,<a href="https://esportsinsider.com/2018/08/team-secret-secretlab-partnership/">Team Secret</a><img src="images/teamsecret-chair.jpg" alt="teamchair" id="hide">,<a href="https://esportsinsider.com/2019/08/astralis-secretlab-partnership/">Astralis</a><img src="images/astralis.jpg" alt="astralis" id="hide">, <a href="https://esportsinsider.com/2019/08/astralis-secretlab-partnership/">T1</a><img src="images/T1.jpg" alt="T1" id="hide">, and <a href="https://esportsinsider.com/2020/07/evil-geniuses-secretlab/">Evil Geniuses</a><img src="images/evilgeniuses.png" alt="evilgeniuses" id="hide"></li>
+        The company has partnered with international e-sports teams such as :  
+      <ul class="select" id="line-height">
+        <li><a href="https://esportsinsider.com/2020/04/team-liquid-secretlab-partnership/">Team Liquid</a><img src="images/teamliquid-chair.jpg" alt="team-liquid-chair" id="hide"></li>
+        <li><a href="https://ogs.gg/secretlab-dreamog-edition-gaming-seat/">Team OG</a><img src="images/og-chair.jpg" alt="OG" id="hide">
+        <li><a href="https://hardcoregamer.com/2020/01/09/secretlab-chairs-announces-g2-esports-collaboration/364886/">G2 Esports</a><img src="images/G2.jpg" alt="G2" id="hide"></li> 
+        <li><a href="https://esports-marketing-blog.com/cloud9-and-secretlab-launch-partnership-special-edition-chair/">Cloud9</a><img src="images/Cloud9.jpg" alt="Cloud9" id="hide"></li>
+        <li><a href="https://esportsinsider.com/2018/08/team-secret-secretlab-partnership/">Team Secret</a><img src="images/teamsecret-chair.jpg" alt="teamchair" id="hide"></li>
+        <li><a href="https://esportsinsider.com/2019/08/astralis-secretlab-partnership/">Astralis</a><img src="images/astralis.jpg" alt="astralis" id="hide">
+        <li><a href="https://esportsinsider.com/2019/08/astralis-secretlab-partnership/">T1</a><img src="images/T1.jpg" alt="T1" id="hide"></li></li> 
+        <li><a href="https://esportsinsider.com/2020/07/evil-geniuses-secretlab/">Evil Geniuses</a><img src="images/evilgeniuses.png" alt="evilgeniuses" id="hide"></li>
       </ul>
     </div>
     <div class="paragraph">
       <h2>Other partnerships</h2>
       <!--Display images when hover links below -->
       <ul class="select">             
-        <li>April 2019 - Secretlab announced a partnership with Warner Bros Consumer. Products for a co-branded Secretlab <a href="https://www.thexboxhub.com/secretlab-celebrate-batmans-80th-anniversary-with-the-stunning-dark-knight-edition-gaming-chair/">Dark Knight Edition</a><img src="images/dark-knight-chair.jpg" alt="dark-knight-chair" id="hide"> gaming chair to commemorate Batman's 80th anniversary.</li>
+        <li>April 2019 - Secretlab collaborated with Warner Bros Consumer and released the <a href="https://www.thexboxhub.com/secretlab-celebrate-batmans-80th-anniversary-with-the-stunning-dark-knight-edition-gaming-chair/">Dark Knight Edition</a><img src="images/dark-knight-chair.jpg" alt="dark-knight-chair" id="hide"> gaming chair to commemorate Batman's 80th anniversary.</li>
         <br>
-        <li>May 2019 - Secretlab and television network HBO also announced the world's first <a href="https://www.lowyat.net/2019/185307/secretlab-and-hbo-have-made-game-of-thrones-themed-chairs-features-stark-lannister-targaryen-sigils/" target="_blank">Game of Thrones</a><img src="images/game-of-thrones-chair.jpg" alt="game_of_thrones_chair" id="hide"> gaming seats, themed after the three fan-favourite Houses from the series: House Stark, House Lannister and House Targaryen</li>
+        <li>May 2019 - Secretlab and television network HBO also announced the world's first <a href="https://www.lowyat.net/2019/185307/secretlab-and-hbo-have-made-game-of-thrones-themed-chairs-features-stark-lannister-targaryen-sigils/" target="_blank">Game of Thrones</a><img src="images/game-of-thrones-chair.jpg" alt="game_of_thrones_chair" id="hide"> gaming seats.</li>
         <br>
-        <li>August 2019 - Valve and Secretlab announced the world's first <a href="https://geekculture.co/singapores-secretlab-is-now-official-gaming-chair-for-biggest-dota-2-global-esports-tournament/" target="_blank">Dota 2 Edition</a><img src="images/dota-2-chair.jpg" alt="Dota2 Chair" id="hide" > gaming chairs ahead of The International 2019, where Secretlab was also named as an official hardware provider for the tournament.</li>
+        <li>August 2019 - Valve and Secretlab announced the world's first <a href="https://geekculture.co/singapores-secretlab-is-now-official-gaming-chair-for-biggest-dota-2-global-esports-tournament/" target="_blank">Dota 2 Edition</a><img src="images/dota-2-chair.jpg" alt="Dota2 Chair" id="hide" > gaming chairs ahead of The International 2019 and Secretlab was named as an official hardware provider for the tournament. </li>
         <br>
-        <li>November 2019 - Secretlab became the first gaming chair brand to collaborate with Blizzard Entertainment to release the world's first officially licensed <a href="https://comicbook.com/gaming/news/secretlab-overwatch-gaming-chairs/" target="_blank">Overwatch</a><img src="images/overwatch-chair.png" alt="Overwatch Chair" id="hide"> and <a href="https://comicbook.com/gaming/news/secretlab-overwatch-gaming-chairs/" target="_blank">D.Va edition</a><img src="images/dva-chair.png" alt="DVA Chair" id="hide"> gaming seats. The companies partnered again in October 2020 for the first World of Warcraft Alliance and Horde Edition chairs.</li>
+        <li>November 2019 - Secretlab became the first gaming chair brand to collaborate with Blizzard Entertainment to release the world's first officially licensed <a href="https://comicbook.com/gaming/news/secretlab-overwatch-gaming-chairs/" target="_blank">Overwatch</a><img src="images/overwatch-chair.png" alt="Overwatch Chair" id="hide"> and <a href="https://comicbook.com/gaming/news/secretlab-overwatch-gaming-chairs/" target="_blank">D.Va edition</a><img src="images/dva-chair.png" alt="DVA Chair" id="hide"> gaming seats.</li>
+        <br>
+        <li>February 2020 - Secretlab once again collaborated with Warner Bros Consumer to release the <a href="https://comicbook.com/gaming/news/secretlab-birds-of-prey-harley-quinn-gaming-chair/">Harley Quinn : Bird of Prey Edition</a><img src="images/bird-of-prey.jpg" alt="bird-of-pray" id="hide"> gaming chair. </li>
         <br>
         <li>June 2020 - Secretlab teamed up with Witcher 3 developer CD Projekt Red to release the <a href="https://www.windowscentral.com/secretlabs-releases-cyberpunk-2077-gaming-chair-and-it-looks-amazing" target="_blank">Secretlab Cyberpunk 2077 Edition chair.</a><img src ="images/cyberpunk-chair.jpg" alt="Cyberpunk Chair" id="hide"></li>
         <br>
-        <li>August 2020 - Secretlab revealed the League of Legends Champions Collection designed in collaboration with Riot Games and featuring four chairs inspired by fan-favorite champions Ahri, Akali, and Yasuo and virtual pop group K/DA.<a href="https://screenrant.com/secretlab-league-legends-kda-all-out-edition/" target="_blank">The K/DA ALL OUT Edition</a><img src="images/kda-lol-chair.jpg" alt="KDA Chair" id="hide"> was added to the collection in October 2020 to celebrate the band’s comeback and new album</li>
+        <li>August 2020 - Secretlab has collaborated with Riots Game and released the <a href="https://screenrant.com/secretlab-league-legends-kda-all-out-edition/" target="_blank">The K/DA ALL OUT Edition</a><img src="images/kda-lol-chair.jpg" alt="KDA Chair" id="hide"> gaming chairs, it was added to the collection in October 2020 to celebrate the band’s comeback and new album </li>
         <br>
-        <li>September 2020 - Secretlab announced that it had been chosen as the official chair partner of the League of Legends World Championship 2020 for the second year running, it released a special edition design, the <a href="https://my.secretlab.co/pages/lolesports" target="_blank">Secretlab Worlds 2020 Edition</a><img src="images/lol-worlds20-chairs-min.png" alt="lol20_chair" id="hide"></li>
+        <li>September 2020 - Secretlab announced that it had been chosen as the official chair partner of the League of Legends World Championship 2020 for the second year running and released the <a href="https://my.secretlab.co/pages/lolesports" target="_blank">Secretlab Worlds 2020 Edition</a><img src="images/lol-worlds20-chairs-min.png" alt="lol20_chair" id="hide">.</li>
         <br>
-        <li>October 2020 - Secretlab partnered with independent game development studio Facepunch Studios to release the <a href="https://blog.secretlab.co/stories/rust-edition-chair/" target="_blank">Secretlab Rust Edition</a>,<img id="hide" src="images/rust-chair.jpg">which comes with the first Rust in-game Secretlab chair blueprint, only obtainable by purchasing the official chair.</li>
+        <li>October 2020 - Secretlab partnered with Facepunch Studios to release the <a href="https://blog.secretlab.co/stories/rust-edition-chair/" target="_blank">Secretlab Rust Edition</a>. <img id="hide" src="images/rust-chair.jpg"> In the same month, Secretlab collaborated with Blizzard Entertainment again to release the first <a href="https://www.gamespot.com/articles/world-of-warcraft-chairs-from-secretlab-let-you-choose-between-alliance-and-horde/1100-6483261/">World of Warcraft Alliance and Horde Edition chairs</a><img src="images/warcraft-chair.jpg" alt="warcraft" id="hide">.</li>
       </ul>
     </div>
     <div class="awards-image" id="awards">
@@ -331,18 +341,7 @@
           </tr>
         </tbody>
       </table>
-      <table>
-        <tr>
-          <td>      
-            <small id="copyright-info">Copyright &copy; 2021 Secret Lab. All rights reserved</small>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <small id="last-update-info">Last updated: 22 March 2021</small>
-          </td>
-        </tr>
-      </table>
+      <p id="copyright-info">Copyright &copy; 2021 Secret Lab. All rights reserved</p>
     </div>
     <div class="footer-images">
       <a href="Homepage.html" target="_blank"><img id="footer-logo" src="images/secret-lab-logo.png" width="200px" alt="logo"></a>
@@ -391,8 +390,7 @@
             </ul>
           </li>
         </ul>
-      </div> 
-      <p id="email">Email us at <a href="mailto:secretlabchairs@gmail.com">secretlabchairs@gmail.com</a></p> 
+      </div>  
     </div>
   </footer>  
 </body>
