@@ -35,14 +35,14 @@ main {
 .chair {
   animation: 
     fade-in 7s ease, 
-    shift-in-left 3s ease forwards; /*animation fill mode (forwards) retain final animation state*/
+    shift-in-left 3s ease forwards; /*3s duration, easing speed, animation fill mode (forwards) retain final animation state*/
 }
 
 .titanxlchair {
-  animation: none; /*prevent titan xl chair layout go off*/
+  animation: none; /*prevents titan xl chair layout go off*/
 }
 
-#omegaseries {
+#omegaseries { /*styles for each series and models*/
   top: 0px;
   margin-left: 200px; 
   width:  855px;
@@ -60,7 +60,7 @@ main {
   display: block;
 }
 
-.overlay {
+.overlay { /*styles for overlays*/
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1;
@@ -72,7 +72,7 @@ main {
   text-align: center;
 }
 
-.chair img:hover + .overlay {
+.chair img:hover + .overlay { /*selects class overlay when chair image is hovered (they're on the same hierarchy, not descendents*/
   opacity: 1;
 }
 
