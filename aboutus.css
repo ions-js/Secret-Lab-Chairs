@@ -62,32 +62,34 @@ main {
     height: 100vh;
     width: 100%;
 }
-.products{
-    margin-top: 0px;
-}
-.product-table table{
+
+.product-table table {
     table-layout: fixed;
     width : 100%;
-    margin-bottom: 2%;
+    margin-bottom: 0;
 }
 
-.product-table table:hover{
-    background-color: rgb(207, 205, 205);
+.product-table table:hover {
+    background: linear-gradient(to bottom, #000000, #434343);
+    color: rgb(255, 255, 255);   
+}
+
+.product-table table:hover td a {
     color: rgb(255, 255, 255);
 }
 
-.product-table tr th ,.product-table tr td{
+.product-table tr th ,.product-table tr td {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
-.product-table th{
+.product-table th {
     font-size: 80px;
     transition: ease-in;
     transition-duration: 0.5s;
 }
 
-.product-table tr td img{
+.product-table tr td img {
     height:300px;
     animation: boxshadow-colour 2s infinite;
     border: 2px solid grey;
@@ -97,35 +99,35 @@ main {
     text-decoration: none;
 }
 
-.product-table td a:hover{
-    color: rgb(21, 111, 146);
+.product-table td a:hover {
     text-decoration: underline;
 }
 /*makes the img bigger when hovered to create interaction*/
-.product-table tr td img:hover{
-    height:360px;
+.product-table tr td img:hover {
+    height: 350px;
 }
 
-#productbutton{
+#productbutton {
     padding-top: 20px;
     padding-bottom: 30px;
 }
 
 #productbutton a {
-    padding:10px;
-    background-color: rgb(201, 201, 201);
+    padding: 10px;
+    background: linear-gradient(to right, #8e9eab, #eef2f3);    
     color: black;
+    border-radius: 200px;
 }
 /*makes the productbutton changes its color and create shadow when hovered to create interaction*/
 #productbutton a:hover {
     padding:15px;
     color: rgb(21, 111, 146);
     background-color: ghostwhite;
-    box-shadow:5px 5px 5px whitesmoke;
+    box-shadow:5px 5px 10px whitesmoke;
 }
 
 /*align the title text at center and increase opacity of image using rgba in the div */
-.title{
+.title {
     display: flex;
     text-align: center;
     align-items: center;
@@ -154,52 +156,48 @@ the picture blured using brighter color for background color*/
     width: 100%;
 }
 
-/*increase the line height of three lines of story part and indent the texts 
-to make the text position better*/
-#line-spacing{
-    line-height: 30px;
-    text-indent: 30px;
+.social-media table:hover{
+    background:linear-gradient(to bottom, #4CA1AF, #C4E0E5);   
+    color: rgb(241, 241, 241);
 }
 
-/*change the background color and color of texts when hovered*/
 /*making the table layout fixed to ensure the spaces between each columns are consistant*/
 .social-media table {
-    transition: background-color 1s ease;
-
     width: 100%;
     table-layout: fixed;
     background-color: rgb(233, 233, 233);
 }
 
-.social-media table:hover{
-    background-color: rgb(51, 108, 131);
-    color: rgb(241, 241, 241);
-}
-
-.social-media table th,
-.social-media tr td {
-    text-align: center;
-    padding-top: 7%;
-}
-
-.social-media .dropdown {
-    margin: 0;
+.social-media ul li {
     display: none;
 }
-  
-.links a:hover + .dropdown, /*Uses + to select dropdown as 'links a' and dropdown on equal hierarchy*/
-.dropdown:hover {
-    display: block;
-  }
 
-.social-media ul {
-    list-style: none;
-    position: absolute;
-    margin-top: 160px;
-    margin-left: 150px;
-    display: flex;
-    justify-content: space-between;
-    width: 1060px;
+.social-media a:hover + ul li,
+.social-media ul li:hover {
+    display: block;
+}
+
+.social-media ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: rgb(92, 166, 231);
+    padding: 10px;
+    color: aquamarine;
+}
+
+.social-media a:hover ul li:hover{
+    background-color: rgb(92, 166, 231);
+    color: maroon;
+}
+
+/*icons size increase when hover*/
+.social-media a img:hover {
+    width: 50px;
+}
+
+.social-media table th,.social-media tr td{
+    text-align: center;
+    padding-top: 2%;
 }
 
 .social-media .links a {
@@ -207,11 +205,9 @@ to make the text position better*/
 }
   
 /*creates box shadow when hovered to provide interaction*/
-.social-media table img:hover{
-    transition: box-shadows 0.5s ease;
-    box-shadow: 10px 10px 10px rgb(241, 241, 241);
-    border: 2px rgb(255, 255, 255);
-    border-radius: 20px;  
+.social-media table img:hover {
+    width: 52px;
+    height: 52px;
 }
 
 .social-media a {
@@ -224,13 +220,18 @@ to make the text position better*/
     color: rgb(220, 220, 220);
 }
 
-#secretlab-logo a img{
-    width:500px;
-    height: 150px;
+#secretlab-logo td{
+    padding-bottom: 2%;
 }
 
-#secretlab-logo {
-    padding-bottom: 2%;
+#secretlab-logo a img{
+    width: 400px;
+    height: 125px;
+}
+
+#secretlab-logo a img:hover{
+    width: 450px;
+    height: 150px;
 }
 
 .social-media th{
@@ -273,29 +274,29 @@ to make the text position better*/
     text-decoration: none;
     color:lightskyblue ;
 }
-.paragraph a:hover{
+.paragraph a:hover {
     text-decoration: underline;
 }
-.paragraph>h2{
+.paragraph>h2 {
     text-decoration: underline;
     transition: linear;
     transition-duration: 0.5s;
 }
-.paragraph>ul{
+.paragraph > ul { /*selects descendant ul, in class paragraph*/
     padding-top: 10px;
     padding-left: 30px;
     list-style: square;
     display:list-item;
 }
-.awards a{
+.awards a {
     text-decoration: none;
     color: black;
 }
-.awards a:hover{
+.awards a:hover {
     color: rgb(107, 92, 194)
 }
 
-.copyright{
+.copyright {
     float: left;
     padding-bottom: 0px;
     bottom: 0px;
@@ -303,23 +304,23 @@ to make the text position better*/
     color: aliceblue;
 }
 
-span{
+span {
     font-size: 15px;
 }
 
-.select a{
+.select a {
     text-decoration: none;
     color: deepskyblue;
 }
-.select a:hover{
+.select a:hover {
     text-decoration: underline;
 }
-.select a:visited{
+.select a:visited {
     color: deepskyblue;
 }
 
 /*hiding the images*/
-#hide{
+#hide {
     display: none;
     max-height: 300px;
     max-width: 300px;
@@ -329,7 +330,7 @@ span{
     float: right;
 }
 /*display the hiding images that is placed immediately after <a> elements after hovering the link */
-.select a:hover + #hide{
+.select a:hover + #hide {
     display:block;
     animation: boxshadow-colour 2s infinite;
 } 
@@ -349,8 +350,49 @@ span{
     100%{box-shadow:5px 5px 10px rgb(0, 0, 0)}
 }
 
-/*showing the certain element gradually from blur to clear*/
-@keyframes fade{
-    from{opacity: 0;}
-    to{opacity: 1;}
+@keyframes boxcolor {
+    from{ background: linear-gradient(to bottom right, #ddd6f3, #faaca8 );}
+    to{ background: linear-gradient(to bottom right, #faaca8, #ddd6f3 );}
+}
+
+.box {
+    height: 475px;
+    width: 600px;
+    margin: 40px 20px 40px 20px;
+    background: linear-gradient(to bottom right, #ddd6f3, #faaca8);
+    padding: 40px;
+
+    line-height: 40px;
+    text-indent: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-shadow: 2px black;
+    font-weight: bold;
+
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #FFFFFF;
+}
+
+.box:hover {
+    animation: boxcolor 1s infinite;
+    box-shadow: 5px 5px 20px #FFFFFF;
+}
+
+.flex-container {
+    display: flex;
+    background-image: url(images/snene.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 170vh;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.column {
+    display: flex;
+    flex-flow: column wrap;
 }
