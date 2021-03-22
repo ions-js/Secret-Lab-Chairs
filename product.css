@@ -191,52 +191,43 @@ main {
   width: 200%;
 }
 
-.image3 {
-  margin-left: 65%;
-  margin-top: 0px;
-}
-
-.overlay3 {
-  margin-left: 195px;
-  margin-top: -65px;
-}
 /*margin for images and overlay in column 1*/
 .image-col1 {
-  margin-left: 195px;
+  margin-left: 295px;
   margin-top: 0px;
 }
 
 .overlay-col1 {
-  margin-left: 195px;
+  margin-left: 295px;
   margin-top: -65px;
 }
 /*margin for images and overlay in column 2*/
 .image-col2 {
-  margin-left: 495px;
+  margin-left: 595px;
   margin-top: -460px;
 }
 
 .overlay-col2{
-  margin-left: 495px;
+  margin-left: 595px;
   margin-top: -65px;
 }
 /*margin for images and overlay in column 3*/
 .image-col3 {
-  margin-left: 795px;
+  margin-left: 895px;
   margin-top: -460px;
 }
 
 .overlay-col3 {
-  margin-left: 795px;
+  margin-left: 895px;
   margin-top: -65px;
 }
 /*margin for images and overlay in column 4*/
 .image-col4 {
-  margin-left: 1095px;
+  margin-left: 1195px;
   margin-top: -460px;
 }
 
 .overlay-col4 {
-  margin-left: 1095px;
+  margin-left: 1195px;
   margin-top: -65px;
 }
